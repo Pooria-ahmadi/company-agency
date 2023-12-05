@@ -1,5 +1,11 @@
 {
-  "Tutorial": {
-    "description": "Auto imported from components/Tutorial.vue"
+  "FooterPage": {
+    "description": "Auto imported from components/footer-page.vue"
+  },
+  "Menudesktop": {
+    "description": "Auto imported from components/menudesktop.vue"
+  },
+  "Menumobile": {
+    "description": "Auto imported from components/menumobile.vue"
   }
 }

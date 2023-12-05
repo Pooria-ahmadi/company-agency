@@ -1,0 +1,92 @@
+<template>
+    <div>
+        <nav class="navbar is-transparent is-hidden-desktop">
+      <div class="navbar-brand is-flex-direction-row-reverse box py-0">
+        <a class="is-hidden-desktop" href="https://bulma.io">
+          <img src="logo.png" alt="airplanelogo" width="50" height="48">
+        </a>
+        <div class="navbar-burger" :class="active ? 'is-active' : ''" @click="showMobilemenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="navbar-menu pr-6 is-hidden-desktop" :class="active ? 'is-active' : ''">
+        <ul>
+          <li class="my-4">
+            <a class="has-text-black has-text-weight-bold" href="#">
+              <i class="fa-solid fa-plane-departure pl-1" style="color: #000000;"></i>
+              پرواز
+            </a>
+          </li>
+          <li class="my-4">
+            <a class="has-text-black has-text-weight-bold" href="#">
+              <i class="fa-solid fa-train pl-1" style="color: #000000;"></i>
+              قطار
+            </a>
+          </li>
+          <li class="my-4">
+            <a class="has-text-black has-text-weight-bold" href="#">
+              <i class="fa-solid fa-hotel pl-1" style="color: #000000;"></i>
+              هتل
+            </a>
+          </li>
+          <li class="my-4">
+            <a class="has-text-black has-text-weight-bold" href="#">
+              <i class="fa-solid fa-umbrella-beach pl-1" style="color: #000000;"></i>
+              تور
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </div>
+</template>
+<script>
+export default {
+  data() {
+    return {
+      isActive: '',
+      active: false,
+      showNavbar: true,
+      window: {
+        width: 0,
+        height: 0
+      },
+    }
+  },
+
+  mounted() {
+    window.addEventListener('resize', this.handleResize);
+    this.handleResize();
+    this.respNav();
+
+  },
+  destroyed() {
+    window.removeEventListener('resize', this.handleResize);
+  },
+  methods: {
+    handleResize() {
+      this.window.width = window.innerWidth;
+      this.window.height = window.innerHeight;
+
+    },
+    respNav() {
+      if (this.window.width <= 767) {
+        this.isActive = true;
+      }
+      if (this.window.width >= 768) {
+        this.isActive = false;
+      }
+    },
+    showMobilemenu() {
+      //this.navbarBurgers
+      console.log('is-active');
+      this.active = !this.active;
+    }
+  }
+}
+
+
+</script>
+

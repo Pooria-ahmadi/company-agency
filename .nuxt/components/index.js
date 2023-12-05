@@ -1,4 +1,6 @@
-export { default as Tutorial } from '../..\\components\\Tutorial.vue'
+export { default as FooterPage } from '../..\\components\\footer-page.vue'
+export { default as Menudesktop } from '../..\\components\\menudesktop.vue'
+export { default as Menumobile } from '../..\\components\\menumobile.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

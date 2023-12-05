@@ -99,6 +99,11 @@ position: relative;
 .img-question{
   float: inline-start;
 }
+.tittle-box{
+  width: 850px;
+  margin: -85px auto 0;
+  position: relative;
+}
 @media only screen and (min-width: 1024px){
 
 }

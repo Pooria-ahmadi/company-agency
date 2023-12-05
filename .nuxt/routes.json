@@ -1,5 +1,26 @@
 [
   {
+    "name": "aboutus",
+    "path": "/aboutus",
+    "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\pages\\\\aboutus.vue",
+    "chunkName": "pages/aboutus",
+    "_name": "_1a097786"
+  },
+  {
+    "name": "safarcart",
+    "path": "/safarcart",
+    "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\pages\\\\safarcart.vue",
+    "chunkName": "pages/safarcart",
+    "_name": "_5b8fe70a"
+  },
+  {
+    "name": "Services-Services",
+    "path": "/Services-Services",
+    "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\pages\\\\Services-Services.vue",
+    "chunkName": "pages/Services-Services",
+    "_name": "_be09be82"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\pages\\\\index.vue",
