@@ -1,17 +1,18 @@
-.tittle-image {
+.place-text-on-image {
   position: absolute;
   top: 50%;
-  left: 85%;
-  transform: translate(-50%, -50%);
-  font-size: 40px;
+  left: 73%;
 }
 
-.menu-mobile{
+.size-options-menu-mobile{
   width: 80%;
   top: 148%;
   position: relative;
-  z-index: 2;
-  margin: -70px auto 0;
+  margin-right: 8%;
+  margin-top: -14%;
+}
+.position-image-Suggested{
+  position: relative;
 }
 .Menu-divisions {
   border-left: 1px solid #646464;
@@ -21,51 +22,26 @@
   margin-left: -3px;
   top: 0;
 }
-.tab-target{
-  width: 51%;
-  margin: -95px 3% 0;
-  position: relative;
-  z-index: 2;
-  padding: 15px 15px 0 15px;
+.mt-mr-Options-desktop{
+  margin-right: 8%;
+  margin-top: -6%;
 }
-.buttons-menu{
+.Options-box{
   border-radius: 5%;
   background-color: rgba(0, 0, 0, 0.7);
   width: 20%;
   padding: 20px;
 }
-.buttons-menu:hover{
+.Options-box:hover{
   background-color: rgba(46, 250, 28, 0.7);
 }
-.options-menu{
-  width: 70%;
-  margin-right: 16%;
-}
-.border-options{
-  border: 0px;
-    width: 100%;
-    height: 2em;
-}
-.move-button{
-  display: table-cell;
-  height: 36px;
-  width: 36px;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 50%;
-    background: yellow;
-}
-
-.image-card{
-position: relative;
-}
-.line-height{
+.line-height-Description{
   line-height: 2em;
 }
 .border-all-image{
   border-radius: 18px;
 }
-.social-networks-text {
+.direction-social-networks-text {
   float:right;
 }
 .social-networks{
@@ -74,41 +50,35 @@ position: relative;
   border-radius: 15px;
   height: 80px;
 }
-.tittle-text-picture{
+.title-on-picture-Suggested{
   position: absolute;
   bottom: 68px;
   right: 4%;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #666;
 }
-.subtittle-text-picture{
+.subtitle-on-picture-Suggested{
   position: absolute;
   bottom: 31px;
   right: 4%;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #666;
 }
-.tittle-picture{
-  width: 100%;
-  border-radius: 5%;
-}
-.Question-box{
+.border-question-box{
   border-radius: 5px;
 }
 
-.img-question{
+.direction-img-left-question{
   float: inline-start;
 }
-.tittle-box{
+.place-Slogan-aboutus-on-image{
   width: 850px;
   margin: -85px auto 0;
   position: relative;
 }
-@media only screen and (min-width: 1024px){
-
+.fifty-px-logo-agency{
+  width: 50px;
 }
-
-@media only screen and (min-width: 374px){
-
-
+.height-input-form-safarcart{
+  height: 140px;
 }

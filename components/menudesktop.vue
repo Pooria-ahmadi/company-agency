@@ -4,7 +4,9 @@
       <div class="columns">
         <div class="column is-half py-0">
           <div class="navbar-start is-hidden-mobile ">
-            <img src="logo.png" width="8%" />
+            <a href="/">
+              <img src="logo-header.png" class="fifty-px-logo-agency"/>
+            </a>
             <a class="navbar-item mr-6" href="#">
               پرواز داخلی
             </a>
@@ -25,7 +27,7 @@
           <div class="navbar-end is-hidden-mobile">
 
             <button class="button is-info is-rounded ml-6 has-text-weight-bold" width="20%">
-              <img src="icons8-support-64.png" width="31px">
+              <img src="icons8-support-64.png">
               <p class="pr-4">132232</p>
             </button>
             <button class="button is-success is-hovered has-text-weight-bold">ثبت نام | ورود</button>
