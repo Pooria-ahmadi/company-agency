@@ -49,7 +49,10 @@
         <ul>
           <li class="has-text-weight-bold mt-6  mb-4"> اطلاعات تکمیلی</li>
           <li class=" mb-4"><a class="has-text-grey-dark"> فروش سازمانی </a></li>
-          <li class=" mb-4"><a class="has-text-grey-dark"> همکاری با سازمان ها</a></li>
+          <li class=" mb-4"><NuxtLink class="has-text-grey-dark" to="/cw-organizations">
+            همکاری با سازمان ها
+          </NuxtLink>
+        </li>
           <li class=" mb-4"><NuxtLink class="has-text-grey-dark" to="/safarcart">
             سفر کارت سمیر گشت
           </NuxtLink>

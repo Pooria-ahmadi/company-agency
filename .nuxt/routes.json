@@ -3,42 +3,42 @@
     "name": "aboutus",
     "path": "/aboutus",
     "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\pages\\\\aboutus.vue",
-    "chunkName": "pages/aboutus",
-    "_name": "_1a097786"
+    "chunkName": "pages/aboutus"
   },
   {
     "name": "Contactus",
     "path": "/Contactus",
     "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\pages\\\\Contactus.vue",
-    "chunkName": "pages/Contactus",
-    "_name": "_679253f0"
+    "chunkName": "pages/Contactus"
+  },
+  {
+    "name": "cw-organizations",
+    "path": "/cw-organizations",
+    "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\pages\\\\cw-organizations.vue",
+    "chunkName": "pages/cw-organizations"
   },
   {
     "name": "Rules",
     "path": "/Rules",
     "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\pages\\\\Rules.vue",
-    "chunkName": "pages/Rules",
-    "_name": "_5d87eaae"
+    "chunkName": "pages/Rules"
   },
   {
     "name": "safarcart",
     "path": "/safarcart",
     "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\pages\\\\safarcart.vue",
-    "chunkName": "pages/safarcart",
-    "_name": "_5b8fe70a"
+    "chunkName": "pages/safarcart"
   },
   {
     "name": "Services-Services",
     "path": "/Services-Services",
     "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\pages\\\\Services-Services.vue",
-    "chunkName": "pages/Services-Services",
-    "_name": "_be09be82"
+    "chunkName": "pages/Services-Services"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_b56335b8"
+    "chunkName": "pages/index"
   }
 ]

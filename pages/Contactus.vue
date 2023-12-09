@@ -12,7 +12,7 @@
                 </p>
                 <div class="columns is-vcentered my-6">
                     <div class="column">
-                        <div class="is-flex mr-6 mr-6">
+                        <div class="is-flex mr-6">
                             <img src="telephone.png" alt="">
                             <p class="pt-2 mr-3 has-text-weight-bold">
                                 تلفن پشتیبانی

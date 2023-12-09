@@ -6,6 +6,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _1a097786 = () => interopDefault(import('..\\pages\\aboutus.vue' /* webpackChunkName: "pages/aboutus" */))
 const _679253f0 = () => interopDefault(import('..\\pages\\Contactus.vue' /* webpackChunkName: "pages/Contactus" */))
+const _4d3b5825 = () => interopDefault(import('..\\pages\\cw-organizations.vue' /* webpackChunkName: "pages/cw-organizations" */))
 const _5d87eaae = () => interopDefault(import('..\\pages\\Rules.vue' /* webpackChunkName: "pages/Rules" */))
 const _5b8fe70a = () => interopDefault(import('..\\pages\\safarcart.vue' /* webpackChunkName: "pages/safarcart" */))
 const _be09be82 = () => interopDefault(import('..\\pages\\Services-Services.vue' /* webpackChunkName: "pages/Services-Services" */))
@@ -30,6 +31,10 @@ export const routerOptions = {
     path: "/Contactus",
     component: _679253f0,
     name: "Contactus"
+  }, {
+    path: "/cw-organizations",
+    component: _4d3b5825,
+    name: "cw-organizations"
   }, {
     path: "/Rules",
     component: _5d87eaae,
