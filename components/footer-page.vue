@@ -36,7 +36,9 @@
       <div class="column has-text-centered">
         <ul>
           <li class="has-text-weight-bold mt-6  mb-4"> خدمات مشتریان</li>
-          <li class=" mb-4"><a class="has-text-grey-dark">پرسش و پاسخ</a></li>
+          <li class=" mb-4"><NuxtLink class="has-text-grey-dark" to="/Rules">
+              قوانین و مقررات
+          </NuxtLink></li>
           <li class=" mb-4"><NuxtLink class="has-text-grey-dark" to="/Services-Services">
              خدمات مشتریان
           </NuxtLink></li>
@@ -61,10 +63,13 @@
             <img src="logo.png" alt="">
           </li>
           <li class=" mb-4">
-            <p>تلفن پشتیبانی : <a>091-00036700</a></p>
+            <p>تلفن پشتیبانی : <p class="mt-2">021-86045876</p>
+              <p class="mt-2">021-86045318</p>
+              <p class="mt-2">021-86045188</p>
+            </p>
           </li>
           <li class=" mb-4">
-            <p>آدرس دفتر: تهران _ هویزه</p>
+            <p>آدرس دفتر: سهروردی شمالی-هویزه غربی-پلاک ۵۳</p>
           </li>
         </ul>
       </div>

@@ -19,7 +19,13 @@
                             </p>
                         </div>
                         <p class="mt-5 mr-6">
-                            091-00036700
+                            021-86045876
+                        </p>
+                        <p class="mt-5 mr-6">
+                            021-86045318
+                        </p>
+                        <p class="mt-5 mr-6">
+                            021-86045188
                         </p>
                         <div class="is-flex mr-6 mt-4">
                             <img src="email.png" alt="">

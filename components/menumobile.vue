@@ -48,37 +48,10 @@ export default {
     return {
       isActive: '',
       active: false,
-      showNavbar: true,
-      window: {
-        width: 0,
-        height: 0
-      },
     }
   },
 
-  mounted() {
-    window.addEventListener('resize', this.handleResize);
-    this.handleResize();
-    this.respNav();
-
-  },
-  destroyed() {
-    window.removeEventListener('resize', this.handleResize);
-  },
   methods: {
-    handleResize() {
-      this.window.width = window.innerWidth;
-      this.window.height = window.innerHeight;
-
-    },
-    respNav() {
-      if (this.window.width <= 767) {
-        this.isActive = true;
-      }
-      if (this.window.width >= 768) {
-        this.isActive = false;
-      }
-    },
     showMobilemenu() {
       //this.navbarBurgers
       console.log('is-active');
