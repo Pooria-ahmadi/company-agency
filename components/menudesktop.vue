@@ -1,11 +1,11 @@
 <template>
-    <div>
-        <div class="box is-hidden-mobile">
+  <div>
+    <div class="box is-hidden-mobile">
       <div class="columns">
         <div class="column is-half py-0">
           <div class="navbar-start is-hidden-mobile ">
             <a href="/">
-              <img src="logo-header.png" class="fifty-px-logo-agency"/>
+              <img src="logo-header.png" class="fifty-px-logo-agency" />
             </a>
             <a class="navbar-item mr-6" href="#">
               پرواز داخلی
@@ -28,7 +28,7 @@
 
             <button class="button is-info is-rounded ml-6 has-text-weight-bold" width="20%">
               <img src="icons8-support-64.png">
-              <p class="pr-4">132232</p>
+              <p class="pr-4">02186045318</p>
             </button>
             <button class="button is-success is-hovered has-text-weight-bold">ثبت نام | ورود</button>
 
@@ -36,5 +36,5 @@
         </div>
       </div>
     </div>
-    </div>
+  </div>
 </template>

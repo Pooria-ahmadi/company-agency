@@ -1,6 +1,6 @@
-export { default as FooterPage } from '../..\\components\\footer-page.vue'
-export { default as Menudesktop } from '../..\\components\\menudesktop.vue'
-export { default as Menumobile } from '../..\\components\\menumobile.vue'
+export const FooterPage = () => import('../../components/footer-page.vue' /* webpackChunkName: "components/footer-page" */).then(c => wrapFunctional(c.default || c))
+export const Menudesktop = () => import('../../components/menudesktop.vue' /* webpackChunkName: "components/menudesktop" */).then(c => wrapFunctional(c.default || c))
+export const Menumobile = () => import('../../components/menumobile.vue' /* webpackChunkName: "components/menumobile" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

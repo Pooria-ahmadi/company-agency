@@ -12,7 +12,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_b5cc19c2 from 'nuxt_plugin_plugin_b5cc19c2' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_plugin_56f77d0a from 'nuxt_plugin_plugin_56f77d0a' // Source: ./components/plugin.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -63,7 +63,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"company","htmlAttrs":{"lang":"fa","dir":"rtl"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"airplanee.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Ffont-awesome\u002F6.4.2\u002Fcss\u002Fall.min.css","integrity":"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==","crossorigin":"anonymous","referrerpolicy":"no-referrer"},{"rel":"stylesheet","href":"path\u002Fto\u002Ffont-awesome\u002Fcss\u002Ffont-awesome.min.css"}],"style":[],"script":[]},
+    head: {"title":"بدرقه پرواز","htmlAttrs":{"lang":"fa","dir":"rtl"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"airplanee.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Ffont-awesome\u002F6.4.2\u002Fcss\u002Fall.min.css","integrity":"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==","crossorigin":"anonymous","referrerpolicy":"no-referrer"},{"rel":"stylesheet","href":"path\u002Fto\u002Ffont-awesome\u002Fcss\u002Ffont-awesome.min.css"}],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -178,8 +178,8 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_b5cc19c2 === 'function') {
-    await nuxt_plugin_plugin_b5cc19c2(app.context, inject)
+  if (typeof nuxt_plugin_plugin_56f77d0a === 'function') {
+    await nuxt_plugin_plugin_56f77d0a(app.context, inject)
   }
 
   // Lock enablePreview in context

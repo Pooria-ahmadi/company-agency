@@ -4,10 +4,10 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'company',
+    title: 'بدرقه پرواز',
     htmlAttrs: {
       lang: 'fa',
-      dir:'rtl'
+      dir: 'rtl'
     },
     meta: [
       { charset: 'utf-8' },
@@ -17,8 +17,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'airplanee.ico' },
-      { rel:"stylesheet", href:"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" , integrity:"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" , crossorigin:"anonymous" , referrerpolicy:"no-referrer"},
-      { rel:"stylesheet" , href:"path/to/font-awesome/css/font-awesome.min.css"}
+      { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css", integrity: "sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==", crossorigin: "anonymous", referrerpolicy: "no-referrer" },
+      { rel: "stylesheet", href: "path/to/font-awesome/css/font-awesome.min.css" }
     ]
   },
 

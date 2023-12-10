@@ -2,11 +2,17 @@
   "name": "company",
   "version": "1.0.0",
   "private": true,
+  "config": {
+    "nuxt": {
+      "port": "2500"
+    }
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "pm2 start npm --name badraghe -- start"
   },
   "dependencies": {
     "core-js": "^3.25.3",

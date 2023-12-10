@@ -6,25 +6,25 @@
     </div>
 
     <section class="columns mt-mr-Options-desktop">
-    <div class="is-hidden-mobile is-flex" style="width: 700px;">
-      <a class=" mx-4 Options-box has-text-centered" href="#">
-        <img src="icon-airplane.png"  alt="Domestic-flight" />
-        <p class="has-text-white has-text-weight-bold">پرواز داخلی</p>
-      </a>
-      <a class=" mx-4 Options-box has-text-centered" href="#">
-        <img src="around-the-globe.png"  alt="Domestic-flight" />
-        <p class="has-text-white has-text-weight-bold">پرواز خارجی</p>
-      </a>
-      <a class=" mx-4 Options-box has-text-centered" href="#">
-        <img src="Hotel.png"  alt="Domestic-flight" />
-        <p class="has-text-white has-text-weight-bold"> هتل</p>
-      </a>
-      <a class=" mx-4 Options-box has-text-centered" href="#">
-        <img src="Train.png" alt="Domestic-flight" />
-        <p class="has-text-white has-text-weight-bold"> قطار</p>
-      </a>
-    </div>
-  </section>
+      <div class="is-hidden-mobile is-flex" style="width: 700px;">
+        <a class=" mx-4 Options-box has-text-centered" href="#">
+          <img src="icon-airplane.png" alt="Domestic-flight" />
+          <p class="has-text-white has-text-weight-bold">پرواز داخلی</p>
+        </a>
+        <a class=" mx-4 Options-box has-text-centered" href="#">
+          <img src="around-the-globe.png" alt="Domestic-flight" />
+          <p class="has-text-white has-text-weight-bold">پرواز خارجی</p>
+        </a>
+        <a class=" mx-4 Options-box has-text-centered" href="#">
+          <img src="Hotel.png" alt="Domestic-flight" />
+          <p class="has-text-white has-text-weight-bold"> هتل</p>
+        </a>
+        <a class=" mx-4 Options-box has-text-centered" href="#">
+          <img src="Train.png" alt="Domestic-flight" />
+          <p class="has-text-white has-text-weight-bold"> قطار</p>
+        </a>
+      </div>
+    </section>
 
 
     <div class="box is-hidden-desktop size-options-menu-mobile">
@@ -58,7 +58,7 @@
         </a>
       </div>
     </div>
-  
+
 
     <!-- <div class="box options-menu mt-6">
       <div class="field is-hidden-desktop">
@@ -135,10 +135,10 @@
         <a href="#">
           <div class="position-image-Suggested">
             <img src="brazil.jpg" alt="brazil" class="border-all-image">
-            <p class="title-on-picture-Suggested is-size-4 has-text-weight-bold has-text-white">
+            <p class="title-on-picture-Suggested is-size-4 has-text-white">
               خرید بلیط برزیل
             </p>
-            <p class="subtitle-on-picture-Suggested has-text-weight-bold has-text-white is-size-6">
+            <p class="subtitle-on-picture-Suggested has-text-warning is-size-6">
               قدم زدم کنار سواحل برزیل
             </p>
           </div>
@@ -148,10 +148,10 @@
         <a href="#">
           <div class="position-image-Suggested">
             <img src="ezmir.jpg" alt="estanbol" class="border-all-image">
-            <p class="title-on-picture-Suggested is-size-4 has-text-weight-bold has-text-white">
+            <p class="title-on-picture-Suggested is-size-4 has-text-white">
               خرید بلیط ازمیر
             </p>
-            <p class="subtitle-on-picture-Suggested has-text-weight-bold has-text-white is-size-6">
+            <p class="subtitle-on-picture-Suggested has-text-warning is-size-6">
               قدم زدن در سواحل ازمیر
             </p>
           </div>
@@ -163,10 +163,10 @@
         <a href="#">
           <div class="position-image-Suggested">
             <img src="دوبی.jpg" alt="estanbol" class="border-all-image">
-            <p class="title-on-picture-Suggested is-size-4 has-text-weight-bold has-text-white">
+            <p class="title-on-picture-Suggested is-size-4 has-text-white">
               خرید بلیط دوبی
             </p>
-            <p class="subtitle-on-picture-Suggested has-text-weight-bold has-text-white is-size-6">
+            <p class="subtitle-on-picture-Suggested has-text-warning is-size-6">
               دیدن از شهر دوبی
             </p>
           </div>
@@ -176,10 +176,10 @@
         <a href="#">
           <div class="position-image-Suggested">
             <img src="estanbol.jpg" alt="estanbol" class="border-all-image">
-            <p class="title-on-picture-Suggested is-size-4 has-text-weight-bold has-text-white">
+            <p class="title-on-picture-Suggested is-size-4 has-text-white">
               خرید بلیط استانبول
             </p>
-            <p class="subtitle-on-picture-Suggested has-text-weight-bold has-text-white is-size-6">
+            <p class="subtitle-on-picture-Suggested has-text-warning is-size-6">
               دیدن از اماکن تاریخی استانبول
             </p>
           </div>
@@ -209,8 +209,10 @@
           خرید بلیط هواپیما داخلی
         </p>
         <p class="mt-4 line-height-Description">
-          شما می‌توانید بلیط‌های هواپیما را از شرکت‌های هواپیمایی مختلف بررسی کرده و قیمت‌ها، تاریخ‌ها و زمان‌های پرواز را
-          مقایسه کنید. همچنین دسترسی به امکاناتی مانند نقشه صندلی‌ها ، اطلاعات پرواز، زمان حرکت، همچنین نام خط هواپیمایی و
+          شما می‌توانید بلیط‌های هواپیما را از شرکت‌های هواپیمایی مختلف بررسی کرده و قیمت‌ها، تاریخ‌ها و زمان‌های پرواز
+          را
+          مقایسه کنید. همچنین دسترسی به امکاناتی مانند نقشه صندلی‌ها ، اطلاعات پرواز، زمان حرکت، همچنین نام خط هواپیمایی
+          و
           شماره پرواز نیز در اختیار شما قرار می‌گیرد.
         </p>
       </div>
@@ -219,8 +221,10 @@
           خرید بلیط هواپیما خارجی
         </p>
         <p class="mt-4 line-height-Description">
-          شما می‌توانید بلیط‌های هواپیما را از شرکت‌های هواپیمایی مختلف بررسی کرده و قیمت‌ها، تاریخ‌ها و زمان‌های پرواز را
-          مقایسه کنید. همچنین دسترسی به امکاناتی مانند نقشه صندلی‌ها ، اطلاعات پرواز، زمان حرکت، همچنین نام خط هواپیمایی و
+          شما می‌توانید بلیط‌های هواپیما را از شرکت‌های هواپیمایی مختلف بررسی کرده و قیمت‌ها، تاریخ‌ها و زمان‌های پرواز
+          را
+          مقایسه کنید. همچنین دسترسی به امکاناتی مانند نقشه صندلی‌ها ، اطلاعات پرواز، زمان حرکت، همچنین نام خط هواپیمایی
+          و
           شماره پرواز نیز در اختیار شما قرار می‌گیرد.
         </p>
       </div>
@@ -248,7 +252,8 @@
     <div class="columns is-centered is-vcentered my-6 mx-6">
       <div class="column">
         <p class="has-text-weight-bold">سفر کارت چیست؟</p>
-        <p class="mt-4 line-height-Description">سفر کارت یک بسته سفره که با خرید آن می توان سفر را در خانواده برای باال بردن سطح
+        <p class="mt-4 line-height-Description">سفر کارت یک بسته سفره که با خرید آن می توان سفر را در خانواده برای باال
+          بردن سطح
           کیفیت زندگی با توجه به مشکالت روزمره باال برد،این کارت ها هم از لحاظ هزینه و هم از لحاظ کیفیت میتواند نظر
           استفاده کنندگان را تامین کند ...</p>
         <div class="has-text-centered mt-6">
@@ -267,7 +272,8 @@
       <div class="column">
         <p class="has-text-weight-bold"> چرا باید سفر کارت بخرید : </p>
         <ul>
-          <li class="mt-4 line-height-Description">ما سفر رفتن رو برای شما راحت میکنیم. ما شمارو از تورم نجات میدیم.</li>
+          <li class="mt-4 line-height-Description">ما سفر رفتن رو برای شما راحت میکنیم. ما شمارو از تورم نجات میدیم.
+          </li>
           <li class="mt-4 line-height-Description">ما به شما حریم خصوصی سفر میدیم.</li>
           <li class="mt-4 line-height-Description">ما به شما قدرت تصمیم گیری برای زمان و مکان سفر میدهیم. </li>
           <li class="mt-4 line-height-Description">ما به شما زمان کنار خانواده بودن را هدیه میدهیم.</li>
@@ -277,13 +283,13 @@
       </div>
     </div>
     <div class="is-flex is-justify-content-center">
-      <img  src="question-mark.png" alt="">
+      <img src="question-mark.png" alt="">
       <p class="pt-2 mr-3 has-text-weight-bold">
-      سوالات متداول
+        سوالات متداول
       </p>
     </div>
-      
-   
+
+
     <div class="columns is-justify-content-center mt-3">
       <div class="column is-two-thirds has-background-grey-lighter border-question-box">
         <p class="is-size-6 has-text-weight-bold pr-2">

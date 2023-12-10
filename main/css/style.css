@@ -1,19 +1,35 @@
+@font-face {
+  font-family: samim;
+  src: url('~assets/fonts/samim/Farsi-Digits/Samim-FD.eot?#iefix') format('FontName-opentype'),
+    url('~assets/fonts/samim/Farsi-Digits/Samim-FD.woff') format('woff'),
+    url('~assets/fonts/samim/Farsi-Digits/Samim-FD.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: "samim" !important;
+}
+
 .place-text-on-image {
   position: absolute;
   top: 50%;
   left: 73%;
 }
 
-.size-options-menu-mobile{
+.size-options-menu-mobile {
   width: 80%;
   top: 148%;
   position: relative;
   margin-right: 8%;
   margin-top: -14%;
 }
-.position-image-Suggested{
+
+.position-image-Suggested {
   position: relative;
 }
+
 .Menu-divisions {
   border-left: 1px solid #646464;
   height: 112px;
@@ -22,63 +38,74 @@
   margin-left: -3px;
   top: 0;
 }
-.mt-mr-Options-desktop{
+
+.mt-mr-Options-desktop {
   margin-right: 8%;
   margin-top: -6%;
 }
-.Options-box{
+
+.Options-box {
   border-radius: 5%;
   background-color: rgba(0, 0, 0, 0.7);
   width: 20%;
   padding: 20px;
 }
-.Options-box:hover{
+
+.Options-box:hover {
   background-color: rgba(46, 250, 28, 0.7);
 }
-.line-height-Description{
+
+.line-height-Description {
   line-height: 2em;
 }
-.border-all-image{
+
+.border-all-image {
   border-radius: 18px;
 }
+
 .direction-social-networks-text {
-  float:right;
+  float: right;
 }
-.social-networks{
+
+.social-networks {
   background-image: linear-gradient(to right, #00f9a7, #00f933);
   width: 340px;
   border-radius: 15px;
   height: 80px;
 }
-.title-on-picture-Suggested{
+
+.title-on-picture-Suggested {
   position: absolute;
   bottom: 68px;
   right: 4%;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #666;
+  text-shadow: 2px 2px 2px black;
 }
-.subtitle-on-picture-Suggested{
+
+.subtitle-on-picture-Suggested {
   position: absolute;
   bottom: 31px;
   right: 4%;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #666;
+  text-shadow: 2px 2px 2px black;
 }
-.border-question-box{
+
+.border-question-box {
   border-radius: 5px;
 }
 
-.direction-img-left-question{
+.direction-img-left-question {
   float: inline-start;
 }
-.place-Slogan-aboutus-on-image{
+
+.place-Slogan-aboutus-on-image {
   width: 850px;
   margin: -85px auto 0;
   position: relative;
 }
-.fifty-px-logo-agency{
+
+.fifty-px-logo-agency {
   width: 50px;
 }
-.height-input-form-safarcart{
+
+.height-input-form-safarcart {
   height: 140px;
 }
