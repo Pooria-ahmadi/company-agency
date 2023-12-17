@@ -1,8 +1,8 @@
 <template>
   <div>
     <img src="/poster-pages/test1.jpg" style="width: 100%;">
-    <div class="place-text-on-image is-size-2 has-text-weight-bold has-text-white is-hidden-mobile">
-      پرواز داخلی
+    <div class="place-text-on-image is-hidden-mobile is-size-2 has-text-weight-bold has-text-white">
+        پرواز داخلی
     </div>
 
     <section class="columns mt-mr-options-desktop">
@@ -188,7 +188,7 @@
     </div>
 
     <p class="has-text-centered is-size-4">خرید آنلاین بلیط</p>
-    <div class="columns is-justify-content-center">
+    <div class="columns is-justify-content-center mx-0">
       <div class="column is-two-thirds">
         <p class="is-size-5 has-text-weight-bold mr-6 mt-6">
           خرید بلیط آنلاین؟
@@ -290,7 +290,7 @@
     </div>
 
 
-    <div class="columns is-justify-content-center mt-3">
+    <div class="columns is-justify-content-center mt-3 mx-0">
       <a class="column is-two-thirds has-background-grey-lighter border-question-box">
         <p class="is-size-6 has-text-weight-bold pr-2 has-text-grey-dark">
           چند روز قبل از پرواز، بلیط هواپیما را بخریم ؟
@@ -298,7 +298,7 @@
         </p>
       </a>
     </div>
-    <div class="columns is-justify-content-center mt-3">
+    <div class="columns is-justify-content-center mt-3 mx-0">
       <a class="column is-two-thirds has-background-grey-lighter border-question-box">
         <p class="is-size-6 has-text-weight-bold pr-2 has-text-grey-dark">
           نرخ بلیط هواپیما برای نوزادان و کودکان زیر ۱۲ سال چگونه است؟
@@ -306,7 +306,7 @@
         </p>
       </a>
     </div>
-    <div class="columns is-justify-content-center mt-3">
+    <div class="columns is-justify-content-center mt-3 mx-0">
       <a class="column is-two-thirds has-background-grey-lighter border-question-box">
         <p class="is-size-6 has-text-weight-bold pr-2 has-text-grey-dark">
           آیا پس از خرید بلیط هواپیما، امکان تغییر نام یا نام خانوادگی وجود دارد؟
@@ -314,7 +314,7 @@
         </p>
       </a>
     </div>
-    <div class="columns is-justify-content-center mt-3">
+    <div class="columns is-justify-content-center mt-3 mx-0">
       <a class="column is-two-thirds has-background-grey-lighter border-question-box">
         <p class="is-size-6 has-text-weight-bold pr-2 has-text-grey-dark">
           آیا پس از خرید اینترنتی بلیط هواپیما امکان استرداد آن وجود دارد؟
@@ -322,7 +322,7 @@
         </p>
       </a>
     </div>
-    <div class="columns is-justify-content-center mt-3 mb-6">
+    <div class="columns is-justify-content-center mt-3 mb-6 mx-0">
       <a class="column is-two-thirds  has-background-grey-lighter border-question-box">
         <p class="is-size-6 has-text-weight-bold pr-2 has-text-grey-dark">
           رزرو آنلاین بلیط هواپیما هزینه بیشتری از خرید حضوری دارد؟

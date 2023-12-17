@@ -16,7 +16,7 @@
 
             </div>
             <div class="column has-text-centered">
-                <img src="Untitled-1.jpg" alt="" class="border-all-image">
+                <img src="safarcards.jpg" alt="" class="border-all-image">
             </div>
         </div>
         <div class="columns is-centered is-vcentered mt-6 mx-6">

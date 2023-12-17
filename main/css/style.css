@@ -14,8 +14,10 @@ body {
 
 .place-text-on-image {
   position: absolute;
-  top: 50%;
-  left: 73%;
+  top: 219px;
+  left: -12%;
+  width: 100%;
+  text-shadow: 2px 2px black;
 }
 
 .size-options-menu-mobile {
@@ -100,10 +102,6 @@ body {
   width: 850px;
   margin: -85px auto 0;
   position: relative;
-}
-
-.fifty-px-logo-agency {
-  width: 50px;
 }
 
 .height-input-form-safarcart {

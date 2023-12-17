@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="columns has-background-grey-lighter mt-6">
+        <div class="columns has-background-grey-lighter mt-6 mx-0">
       <div class="column has-text-centered">
         <img src="/footer/icons8-rating-64.png" alt="">
         <p class="mx-6">
@@ -20,7 +20,7 @@
         </p>
       </div>
     </div>
-    <div class="columns">
+    <div class="columns mx-0">
       <div class="column has-text-centered">
         <ul>
           <li class="has-text-weight-bold mt-6  mb-4">بدرقه پرواز آرین</li>
@@ -77,7 +77,7 @@
         </ul>
       </div>
     </div>
-    <div class="columns is-centered is-vcentered">
+    <div class="columns is-centered is-vcentered mx-0">
       <div class="column mx-5">
         <div class="social-networks pt-3">
           <p class="direction-social-networks-text pr-4 has-text-weight-bold has-text-grey-dark pt-4 ml-6">با ما همراه باشید!</p>

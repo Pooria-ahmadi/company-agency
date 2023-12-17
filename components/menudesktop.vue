@@ -5,7 +5,7 @@
         <div class="column is-half py-0">
           <div class="navbar-start is-hidden-mobile ">
             <a href="/">
-              <img src="logo-header.png" class="fifty-px-logo-agency" />
+              <img src="/logo/logo.jpg" />
             </a>
             <a class="navbar-item mr-6" href="#">
               پرواز داخلی

@@ -3,7 +3,7 @@
         <nav class="navbar is-transparent is-hidden-desktop">
       <div class="navbar-brand is-flex-direction-row-reverse box py-0">
         <a class="is-hidden-desktop" href="/">
-          <img src="/footer/logo.png" alt="logoagency" class="fifty-px-logo-agency">
+          <img src="/logo/logo.jpg" alt="logoagency">
         </a>
         <div class="navbar-burger" :class="active ? 'is-active' : ''" @click="showMobilemenu">
           <span></span>
