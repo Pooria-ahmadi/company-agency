@@ -15,8 +15,7 @@ body {
 .place-text-on-image {
   position: absolute;
   top: 219px;
-  left: -12%;
-  width: 100%;
+  left: 75%;
   text-shadow: 2px 2px black;
 }
 
@@ -57,7 +56,7 @@ body {
   background-color: rgba(46, 250, 28, 0.7);
 }
 
-.line-height-Description {
+.line-height-description {
   line-height: 2em;
 }
 

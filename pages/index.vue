@@ -193,7 +193,7 @@
         <p class="is-size-5 has-text-weight-bold mr-6 mt-6">
           خرید بلیط آنلاین؟
         </p>
-        <p class="is-size-6 mx-6 mt-4 line-height-Description">
+        <p class="is-size-6 mx-6 mt-4 line-height-description">
           با قابلیت پرداخت آنلاین امن ، شما می‌توانید هزینه بلیط‌تان را به راحتی پرداخت کرده و بلیط الکترونیکی خود را
           دریافت کنید. امکان ارسال کد رزرو و بلیط الکترونیکی به ایمیل یا پیامک برای شما فراهم است. همچنین، در صورت نیاز
           می‌توانید بلیط‌های خود را مدیریت کنید و یا حتی تغییر دهید.
@@ -208,7 +208,7 @@
         <p class="has-text-weight-bold ">
           خرید بلیط هواپیما داخلی
         </p>
-        <p class="mt-4 line-height-Description">
+        <p class="mt-4 line-height-description">
           شما می‌توانید بلیط‌های هواپیما را از شرکت‌های هواپیمایی مختلف بررسی کرده و قیمت‌ها، تاریخ‌ها و زمان‌های پرواز
           را
           مقایسه کنید. همچنین دسترسی به امکاناتی مانند نقشه صندلی‌ها ، اطلاعات پرواز، زمان حرکت، همچنین نام خط هواپیمایی
@@ -220,7 +220,7 @@
         <p class="has-text-weight-bold ">
           خرید بلیط هواپیما خارجی
         </p>
-        <p class="mt-4 line-height-Description">
+        <p class="mt-4 line-height-description">
           شما می‌توانید بلیط‌های هواپیما را از شرکت‌های هواپیمایی مختلف بررسی کرده و قیمت‌ها، تاریخ‌ها و زمان‌های پرواز
           را
           مقایسه کنید. همچنین دسترسی به امکاناتی مانند نقشه صندلی‌ها ، اطلاعات پرواز، زمان حرکت، همچنین نام خط هواپیمایی
@@ -234,7 +234,7 @@
         <p class="has-text-weight-bold ">
           هتل خارجی
         </p>
-        <p class="mt-4 line-height-Description">
+        <p class="mt-4 line-height-description">
           بدرقه پرواز آرین با بهره‌گیری از تکنولوژی روز دنیا و حذف واسطه‌ها توانسته کامل‌ترین مرجع جستجو، مقایسه و رزرو هتل های
           خارجی را راه‌اندازی کند.
         </p>
@@ -243,7 +243,7 @@
         <p class="has-text-weight-bold ">
           هتل داخلی
         </p>
-        <p class="mt-4 line-height-Description">
+        <p class="mt-4 line-height-description">
           بدرقه پرواز آرین به عنوان هوشمندترین مرجع رزرو آنلاین هتل داخلی در ایران تلاش می‌کند تا با فراهم کردن دسترسی شما به
           تمامی هتل های داخلی از اقامت راحت و بی دردسر خود در یکی از شهرهای ایران لذت ببرید.
         </p>
@@ -252,7 +252,7 @@
     <div class="columns is-centered is-vcentered my-6 mx-6">
       <div class="column">
         <p class="has-text-weight-bold">سفر کارت چیست؟</p>
-        <p class="mt-4 line-height-Description">سفر کارت یک بسته سفره که با خرید آن می توان سفر را در خانواده برای باال
+        <p class="mt-4 line-height-description">سفر کارت یک بسته سفره که با خرید آن می توان سفر را در خانواده برای باال
           بردن سطح
           کیفیت زندگی با توجه به مشکالت روزمره باال برد،این کارت ها هم از لحاظ هزینه و هم از لحاظ کیفیت میتواند نظر
           استفاده کنندگان را تامین کند ...</p>
@@ -272,13 +272,13 @@
       <div class="column">
         <p class="has-text-weight-bold"> چرا باید سفر کارت بخرید : </p>
         <ul>
-          <li class="mt-4 line-height-Description">ما سفر رفتن رو برای شما راحت میکنیم. ما شمارو از تورم نجات میدیم.
+          <li class="mt-4 line-height-description">ما سفر رفتن رو برای شما راحت میکنیم. ما شمارو از تورم نجات میدیم.
           </li>
-          <li class="mt-4 line-height-Description">ما به شما حریم خصوصی سفر میدیم.</li>
-          <li class="mt-4 line-height-Description">ما به شما قدرت تصمیم گیری برای زمان و مکان سفر میدهیم. </li>
-          <li class="mt-4 line-height-Description">ما به شما زمان کنار خانواده بودن را هدیه میدهیم.</li>
-          <li class="mt-4 line-height-Description">ما برای شما خاطره به جا میگذاریم.</li>
-          <li class="mt-4 line-height-Description">ما شمارو از تورم نجات میدیم.</li>
+          <li class="mt-4 line-height-description">ما به شما حریم خصوصی سفر میدیم.</li>
+          <li class="mt-4 line-height-description">ما به شما قدرت تصمیم گیری برای زمان و مکان سفر میدهیم. </li>
+          <li class="mt-4 line-height-description">ما به شما زمان کنار خانواده بودن را هدیه میدهیم.</li>
+          <li class="mt-4 line-height-description">ما برای شما خاطره به جا میگذاریم.</li>
+          <li class="mt-4 line-height-description">ما شمارو از تورم نجات میدیم.</li>
         </ul>
       </div>
     </div>

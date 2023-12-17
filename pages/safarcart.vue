@@ -3,7 +3,7 @@
         <div class="columns is-centered is-vcentered my-6 mx-6 has-background-success-light">
             <div class="column">
                 <p class="has-text-weight-bold">سفر کارت چیست؟</p>
-                <p class="mt-4 line-height-Description">
+                <p class="mt-4 line-height-description">
                     سفر کارت یک بسته سفره که با خرید آن می توان سفر را در خانواده برای باال بردن سطح کیفیت زندگی با توجه
                     به مشکالت روزمره باال برد،این کارت ها هم از لحاظ هزینه و هم از لحاظ کیفیت میتواند نظر استفاده
                     کنندگان را تامین کند ،شایان ذکر است با خرید این کارت تورم را در طول استفاده به صفر رسانده و این
@@ -25,7 +25,7 @@
             </div>
             <div class="column">
                 <p class="has-text-weight-bold">آژانس ما همراه شما خواهد بود، در هر زمان....</p>
-                <p class="mt-4 line-height-Description">
+                <p class="mt-4 line-height-description">
                     در اینجا ، هر سفر یک داستان خواندنی است . از شروع تا پایان ما به همراه شما هستیم تا مطمئن شویم که هر
                     لحظه ،هر مکان و هر تجربه به بهترین شکل ممکن برای شما ارائه شود
                     هماهنگی دقیق با هتل ها ، اقامتگاه های با کیفیت و طراحی تور های فراوان همگی جزئیاتی از سفرهایی هستند
