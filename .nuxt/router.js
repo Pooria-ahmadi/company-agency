@@ -4,13 +4,13 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _34d3b5c6 = () => interopDefault(import('../pages/aboutus.vue' /* webpackChunkName: "pages/aboutus" */))
-const _d5d6f18e = () => interopDefault(import('../pages/Contactus.vue' /* webpackChunkName: "pages/Contactus" */))
-const _76c0de88 = () => interopDefault(import('../pages/cw-organizations.vue' /* webpackChunkName: "pages/cw-organizations" */))
-const _38654a72 = () => interopDefault(import('../pages/Rules.vue' /* webpackChunkName: "pages/Rules" */))
-const _008b8078 = () => interopDefault(import('../pages/safarcart.vue' /* webpackChunkName: "pages/safarcart" */))
-const _161dfb08 = () => interopDefault(import('../pages/Services-Services.vue' /* webpackChunkName: "pages/Services-Services" */))
-const _0c77a4ed = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _6e552adc = () => interopDefault(import('..\\pages\\aboutus.vue' /* webpackChunkName: "pages/aboutus" */))
+const _0045edb6 = () => interopDefault(import('..\\pages\\contactus.vue' /* webpackChunkName: "pages/contactus" */))
+const _6fce8170 = () => interopDefault(import('..\\pages\\cw-organizations.vue' /* webpackChunkName: "pages/cw-organizations" */))
+const _3998bb44 = () => interopDefault(import('..\\pages\\rules.vue' /* webpackChunkName: "pages/rules" */))
+const _cbbc1ce0 = () => interopDefault(import('..\\pages\\safarcart.vue' /* webpackChunkName: "pages/safarcart" */))
+const _5a207cd4 = () => interopDefault(import('..\\pages\\services-services.vue' /* webpackChunkName: "pages/services-services" */))
+const _2eb81cb9 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -25,31 +25,31 @@ export const routerOptions = {
 
   routes: [{
     path: "/aboutus",
-    component: _34d3b5c6,
+    component: _6e552adc,
     name: "aboutus"
   }, {
-    path: "/Contactus",
-    component: _d5d6f18e,
-    name: "Contactus"
+    path: "/contactus",
+    component: _0045edb6,
+    name: "contactus"
   }, {
     path: "/cw-organizations",
-    component: _76c0de88,
+    component: _6fce8170,
     name: "cw-organizations"
   }, {
-    path: "/Rules",
-    component: _38654a72,
-    name: "Rules"
+    path: "/rules",
+    component: _3998bb44,
+    name: "rules"
   }, {
     path: "/safarcart",
-    component: _008b8078,
+    component: _cbbc1ce0,
     name: "safarcart"
   }, {
-    path: "/Services-Services",
-    component: _161dfb08,
-    name: "Services-Services"
+    path: "/services-services",
+    component: _5a207cd4,
+    name: "services-services"
   }, {
     path: "/",
-    component: _0c77a4ed,
+    component: _2eb81cb9,
     name: "index"
   }],
 

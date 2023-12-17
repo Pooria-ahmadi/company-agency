@@ -21,7 +21,7 @@
         </div>
         <div class="columns is-centered is-vcentered mt-6 mx-6">
             <div class="column has-text-centered">
-                <img src="support-agency.jpg" alt="" class="border-all-image">
+                <img src="/aboutus/support-agency.jpg" alt="" class="border-all-image">
             </div>
             <div class="column">
                 <p class="has-text-weight-bold">آژانس ما همراه شما خواهد بود، در هر زمان....</p>

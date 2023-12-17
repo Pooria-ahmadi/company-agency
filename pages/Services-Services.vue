@@ -2,7 +2,7 @@
     <div>
         <div class="columns is-centered is-vcentered mt-6 mx-6">
             <div class="column has-text-centered">
-                <img src="Customer-service.jpg" alt="" class="border-all-image">
+                <img src="/services-services/Customer-service.jpg" alt="" class="border-all-image">
             </div>
             <div class="column">
                 <p class="has-text-weight-bold">خدمات مشتریان</p>
@@ -24,12 +24,12 @@
                 </p>
             </div>
             <div class="column has-text-centered">
-                <img src="booking-flight-ticket.jpg" alt="" class="border-all-image">
+                <img src="/services-services/booking-flight-ticket.jpg" alt="" class="border-all-image">
             </div>
         </div>
         <div class="columns is-centered is-vcentered mt-6 mx-6">
             <div class="column has-text-centered">
-                <img src="buy_cheap_ticket.jpg" alt="" class="border-all-image">
+                <img src="/services-services/buy_cheap_ticket.jpg" alt="" class="border-all-image">
             </div>
             <div class="column">
                 <p class="has-text-weight-bold"> پرداخت آنلاین بلیط‌</p>
@@ -50,12 +50,12 @@
                 </p>
             </div>
             <div class="column has-text-centered">
-                <img src="convenience.jpg" alt="" class="border-all-image">
+                <img src="/services-services/convenience.jpg" alt="" class="border-all-image">
             </div>
         </div>
         <div class="columns is-centered is-vcentered mt-6 mx-6">
             <div class="column has-text-centered">
-                <img src="ticket-online.png" alt="" class="border-all-image">
+                <img src="/services-services/ticket-online.png" alt="" class="border-all-image">
             </div>
             <div class="column">
                 <p class="has-text-weight-bold"> تنوع و گزینه‌های بیشتر </p>
@@ -75,12 +75,12 @@
                 </p>
             </div>
             <div class="column has-text-centered">
-                <img src="support-airplane.png" alt="" class="border-all-image">
+                <img src="/services-services/support-airplane.png" alt="" class="border-all-image">
             </div>
         </div>
         <div class="columns is-centered is-vcentered mt-6 mx-6">
             <div class="column has-text-centered">
-                <img src="Aircraft-impact.png" alt="" class="border-all-image">
+                <img src="/services-services/Aircraft-impact.png" alt="" class="border-all-image">
             </div>
             <div class="column">
                 <p class="has-text-weight-bold"> تاثیر ایرلاین بر کیفیت سفر</p>
@@ -103,12 +103,12 @@
                 </p>
             </div>
             <div class="column has-text-centered">
-                <img src="icon-ticket.png" alt="" class="border-all-image">
+                <img src="/services-services/icon-ticket.png" alt="" class="border-all-image">
             </div>
         </div>
         <div class="columns is-centered is-vcentered mt-6 mx-6">
             <div class="column has-text-centered">
-                <img src="istockphot.jpg" alt="" class="border-all-image">
+                <img src="/services-services/istockphot.jpg" alt="" class="border-all-image">
             </div>
             <div class="column">
                 <p class="has-text-weight-bold"> رسیدگی به مسائل امنیتی و مدارک مسافرتی</p>
@@ -127,7 +127,7 @@
                 </p>
             </div>
             <div class="column has-text-centered">
-                <img src="time-ticket.png" alt="" class="border-all-image">
+                <img src="/services-services/time-ticket.png" alt="" class="border-all-image">
             </div>
         </div>
     </div>

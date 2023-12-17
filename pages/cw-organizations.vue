@@ -24,7 +24,7 @@
                 <div class="columns  my-6">
                     <div class="column">
                         <div class="is-flex mr-6">
-                            <img src="telephone.png" alt="">
+                            <img src="/opction/telephone.png" alt="">
                             <p class="pt-2 mr-3 has-text-weight-bold">
                                 تلفن پشتیبانی
                             </p>
@@ -41,7 +41,7 @@
                     </div>
                     <div class="column">
                         <div class="is-flex mr-6 mt-4">
-                            <img src="email.png" alt="">
+                            <img src="/opction/email.png" alt="">
                             <p class="pt-2 mr-3 has-text-weight-bold">
                                 ایمیل
                             </p>

@@ -1,26 +1,26 @@
 <template>
   <div>
-    <img src="test1.jpg" style="width: 100%;">
+    <img src="/poster-pages/test1.jpg" style="width: 100%;">
     <div class="place-text-on-image is-size-2 has-text-weight-bold has-text-white is-hidden-mobile">
       پرواز داخلی
     </div>
 
-    <section class="columns mt-mr-Options-desktop">
+    <section class="columns mt-mr-options-desktop">
       <div class="is-hidden-mobile is-flex" style="width: 700px;">
-        <a class=" mx-4 Options-box has-text-centered" href="#">
-          <img src="icon-airplane.png" alt="Domestic-flight" />
+        <a class=" mx-4 options-box has-text-centered" href="#">
+          <img src="/opction/icon-airplane.png" alt="Domestic-flight" />
           <p class="has-text-white has-text-weight-bold">پرواز داخلی</p>
         </a>
-        <a class=" mx-4 Options-box has-text-centered" href="#">
-          <img src="around-the-globe.png" alt="Domestic-flight" />
+        <a class=" mx-4 options-box has-text-centered" href="#">
+          <img src="/opction/around-the-globe.png" alt="Domestic-flight" />
           <p class="has-text-white has-text-weight-bold">پرواز خارجی</p>
         </a>
-        <a class=" mx-4 Options-box has-text-centered" href="#">
-          <img src="Hotel.png" alt="Domestic-flight" />
+        <a class=" mx-4 options-box has-text-centered" href="#">
+          <img src="/opction/Hotel.png" alt="Domestic-flight" />
           <p class="has-text-white has-text-weight-bold"> هتل</p>
         </a>
-        <a class=" mx-4 Options-box has-text-centered" href="#">
-          <img src="Train.png" alt="Domestic-flight" />
+        <a class=" mx-4 options-box has-text-centered" href="#">
+          <img src="/opction/Train.png" alt="Domestic-flight" />
           <p class="has-text-white has-text-weight-bold"> قطار</p>
         </a>
       </div>
@@ -42,7 +42,7 @@
           </p>
         </a>
       </div>
-      <div class="Menu-divisions"></div>
+      <div class="menu-divisions"></div>
       <div class="columns is-flex">
         <a href="#" class="column has-text-right">
           <p class="has-text-black">
@@ -105,7 +105,7 @@
     <div class="columns mx-6 mt-4">
       <div class="column mx-6 has-text-centered">
 
-        <img src="blit.png">
+        <img src="/points/blit.png">
         <p class="pt-3 has-text-weight-bold has-text-centered has-text-weight-bold"> صدور آنلاین بلیط
         </p>
         <p class=" pt-4">کلیه مراحل خرید بلیط هواپیما، بلیط قطار، بلیط اتوبوس و رزو هتل و تور از سایت بصورت اینترنتی است
@@ -114,7 +114,7 @@
       </div>
       <div class="column mx-6 has-text-centered">
 
-        <img src="visa.png">
+        <img src="/points/visa.png">
         <p class=" pt-3 has-text-weight-bold has-text-centered has-text-weight-bold"> درخواست آنلاین ویزا
         </p>
         <p class="pt-4">ویزا را می توانید در هر زمان و مکان به صورت آنلاین درخواست دهید</p>
@@ -122,7 +122,7 @@
       </div>
       <div class="column mx-6 has-text-centered">
 
-        <img src="support.png">
+        <img src="/points/support.png">
         <p class="pt-3 has-text-weight-bold has-text-centered has-text-weight-bold"> پشتیبانی ۲۴ ساعته
         </p>
         <p class="pt-4">تیم مجرب پشتیبانی در تمام ۲۴ ساعت شبانه روز، آماده پاسخگویی به سوالات و مشکلات شماست</p>
@@ -133,12 +133,12 @@
     <div class="columns mx-6 is-justify-content-center">
       <div class="column is-one-third">
         <a href="#">
-          <div class="position-image-Suggested">
-            <img src="brazil.jpg" alt="brazil" class="border-all-image">
-            <p class="title-on-picture-Suggested is-size-4 has-text-white">
+          <div class="position-image-suggested">
+            <img src="/index/brazil.jpg" alt="brazil" class="border-all-image">
+            <p class="title-on-picture-suggested is-size-4 has-text-white">
               خرید بلیط برزیل
             </p>
-            <p class="subtitle-on-picture-Suggested has-text-warning is-size-6">
+            <p class="subtitle-on-picture-suggested has-text-warning is-size-6">
               قدم زدم کنار سواحل برزیل
             </p>
           </div>
@@ -146,12 +146,12 @@
       </div>
       <div class="column is-one-third">
         <a href="#">
-          <div class="position-image-Suggested">
-            <img src="ezmir.jpg" alt="estanbol" class="border-all-image">
-            <p class="title-on-picture-Suggested is-size-4 has-text-white">
+          <div class="position-image-suggested">
+            <img src="/index/ezmir.jpg" alt="estanbol" class="border-all-image">
+            <p class="title-on-picture-suggested is-size-4 has-text-white">
               خرید بلیط ازمیر
             </p>
-            <p class="subtitle-on-picture-Suggested has-text-warning is-size-6">
+            <p class="subtitle-on-picture-suggested has-text-warning is-size-6">
               قدم زدن در سواحل ازمیر
             </p>
           </div>
@@ -161,12 +161,12 @@
     <div class="columns mx-6 is-justify-content-center">
       <div class="column is-one-third">
         <a href="#">
-          <div class="position-image-Suggested">
-            <img src="دوبی.jpg" alt="estanbol" class="border-all-image">
-            <p class="title-on-picture-Suggested is-size-4 has-text-white">
+          <div class="position-image-suggested">
+            <img src="/index/دوبی.jpg" alt="estanbol" class="border-all-image">
+            <p class="title-on-picture-suggested is-size-4 has-text-white">
               خرید بلیط دوبی
             </p>
-            <p class="subtitle-on-picture-Suggested has-text-warning is-size-6">
+            <p class="subtitle-on-picture-suggested has-text-warning is-size-6">
               دیدن از شهر دوبی
             </p>
           </div>
@@ -174,12 +174,12 @@
       </div>
       <div class="column is-one-third">
         <a href="#">
-          <div class="position-image-Suggested">
-            <img src="estanbol.jpg" alt="estanbol" class="border-all-image">
-            <p class="title-on-picture-Suggested is-size-4 has-text-white">
+          <div class="position-image-suggested">
+            <img src="/index/estanbol.jpg" alt="estanbol" class="border-all-image">
+            <p class="title-on-picture-suggested is-size-4 has-text-white">
               خرید بلیط استانبول
             </p>
-            <p class="subtitle-on-picture-Suggested has-text-warning is-size-6">
+            <p class="subtitle-on-picture-suggested has-text-warning is-size-6">
               دیدن از اماکن تاریخی استانبول
             </p>
           </div>
@@ -201,7 +201,7 @@
       </div>
     </div>
     <div class="has-text-centered my-4">
-      <img src="Travel luggage.jpg" alt="">
+      <img src="/index/Travel luggage.jpg" alt="">
     </div>
     <div class="columns mx-6 is-centered">
       <div class="column is-two-fifths mt-6">
@@ -235,7 +235,7 @@
           هتل خارجی
         </p>
         <p class="mt-4 line-height-Description">
-          سمیر گشت با بهره‌گیری از تکنولوژی روز دنیا و حذف واسطه‌ها توانسته کامل‌ترین مرجع جستجو، مقایسه و رزرو هتل های
+          بدرقه پرواز آرین با بهره‌گیری از تکنولوژی روز دنیا و حذف واسطه‌ها توانسته کامل‌ترین مرجع جستجو، مقایسه و رزرو هتل های
           خارجی را راه‌اندازی کند.
         </p>
       </div>
@@ -244,7 +244,7 @@
           هتل داخلی
         </p>
         <p class="mt-4 line-height-Description">
-          سمیر گشت به عنوان هوشمندترین مرجع رزرو آنلاین هتل داخلی در ایران تلاش می‌کند تا با فراهم کردن دسترسی شما به
+          بدرقه پرواز آرین به عنوان هوشمندترین مرجع رزرو آنلاین هتل داخلی در ایران تلاش می‌کند تا با فراهم کردن دسترسی شما به
           تمامی هتل های داخلی از اقامت راحت و بی دردسر خود در یکی از شهرهای ایران لذت ببرید.
         </p>
       </div>
@@ -262,12 +262,12 @@
 
       </div>
       <div class="column has-text-centered">
-        <img src="safar-card.jpg" alt="" class="border-all-image">
+        <img src="/index/safar-card.jpg" alt="" class="border-all-image">
       </div>
     </div>
     <div class="columns is-centered is-vcentered my-6 mx-6">
       <div class="column has-text-centered">
-        <img src="laptab.jpg" alt="" class="border-all-image">
+        <img src="/index/laptab.jpg" alt="" class="border-all-image">
       </div>
       <div class="column">
         <p class="has-text-weight-bold"> چرا باید سفر کارت بخرید : </p>
@@ -291,44 +291,44 @@
 
 
     <div class="columns is-justify-content-center mt-3">
-      <div class="column is-two-thirds has-background-grey-lighter border-question-box">
-        <p class="is-size-6 has-text-weight-bold pr-2">
+      <a class="column is-two-thirds has-background-grey-lighter border-question-box">
+        <p class="is-size-6 has-text-weight-bold pr-2 has-text-grey-dark">
           چند روز قبل از پرواز، بلیط هواپیما را بخریم ؟
-          <img src="down-arrow.png" alt="" class="direction-img-left-question">
+          <img src="/opction/down-arrow.png" alt="" class="direction-img-left-question">
         </p>
-      </div>
+      </a>
     </div>
     <div class="columns is-justify-content-center mt-3">
-      <div class="column is-two-thirds has-background-grey-lighter border-question-box">
-        <p class="is-size-6 has-text-weight-bold pr-2">
+      <a class="column is-two-thirds has-background-grey-lighter border-question-box">
+        <p class="is-size-6 has-text-weight-bold pr-2 has-text-grey-dark">
           نرخ بلیط هواپیما برای نوزادان و کودکان زیر ۱۲ سال چگونه است؟
-          <img src="down-arrow.png" alt="" class="direction-img-left-question">
+          <img src="/opction/down-arrow.png" alt="" class="direction-img-left-question">
         </p>
-      </div>
+      </a>
     </div>
     <div class="columns is-justify-content-center mt-3">
-      <div class="column is-two-thirds has-background-grey-lighter border-question-box">
-        <p class="is-size-6 has-text-weight-bold pr-2">
+      <a class="column is-two-thirds has-background-grey-lighter border-question-box">
+        <p class="is-size-6 has-text-weight-bold pr-2 has-text-grey-dark">
           آیا پس از خرید بلیط هواپیما، امکان تغییر نام یا نام خانوادگی وجود دارد؟
-          <img src="down-arrow.png" alt="" class="direction-img-left-question">
+          <img src="/opction/down-arrow.png" alt="" class="direction-img-left-question">
         </p>
-      </div>
+      </a>
     </div>
     <div class="columns is-justify-content-center mt-3">
-      <div class="column is-two-thirds has-background-grey-lighter border-question-box">
-        <p class="is-size-6 has-text-weight-bold pr-2">
+      <a class="column is-two-thirds has-background-grey-lighter border-question-box">
+        <p class="is-size-6 has-text-weight-bold pr-2 has-text-grey-dark">
           آیا پس از خرید اینترنتی بلیط هواپیما امکان استرداد آن وجود دارد؟
-          <img src="down-arrow.png" alt="" class="direction-img-left-question">
+          <img src="/opction/down-arrow.png" alt="" class="direction-img-left-question">
         </p>
-      </div>
+      </a>
     </div>
     <div class="columns is-justify-content-center mt-3 mb-6">
-      <div class="column is-two-thirds  has-background-grey-lighter border-question-box">
-        <p class="is-size-6 has-text-weight-bold pr-2">
+      <a class="column is-two-thirds  has-background-grey-lighter border-question-box">
+        <p class="is-size-6 has-text-weight-bold pr-2 has-text-grey-dark">
           رزرو آنلاین بلیط هواپیما هزینه بیشتری از خرید حضوری دارد؟
-          <img src="down-arrow.png" alt="" class="direction-img-left-question">
+          <img src="/opction/down-arrow.png" alt="" class="direction-img-left-question">
         </p>
-      </div>
+      </a>
     </div>
   </div>
 </template>

@@ -2,50 +2,50 @@
   {
     "name": "aboutus",
     "path": "/aboutus",
-    "component": "/home/badragheme/public_html/website/pages/aboutus.vue",
+    "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\company-agency\\\\pages\\\\aboutus.vue",
     "chunkName": "pages/aboutus",
-    "_name": "_34d3b5c6"
+    "_name": "_6e552adc"
   },
   {
-    "name": "Contactus",
-    "path": "/Contactus",
-    "component": "/home/badragheme/public_html/website/pages/Contactus.vue",
-    "chunkName": "pages/Contactus",
-    "_name": "_d5d6f18e"
+    "name": "contactus",
+    "path": "/contactus",
+    "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\company-agency\\\\pages\\\\contactus.vue",
+    "chunkName": "pages/contactus",
+    "_name": "_0045edb6"
   },
   {
     "name": "cw-organizations",
     "path": "/cw-organizations",
-    "component": "/home/badragheme/public_html/website/pages/cw-organizations.vue",
+    "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\company-agency\\\\pages\\\\cw-organizations.vue",
     "chunkName": "pages/cw-organizations",
-    "_name": "_76c0de88"
+    "_name": "_6fce8170"
   },
   {
-    "name": "Rules",
-    "path": "/Rules",
-    "component": "/home/badragheme/public_html/website/pages/Rules.vue",
-    "chunkName": "pages/Rules",
-    "_name": "_38654a72"
+    "name": "rules",
+    "path": "/rules",
+    "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\company-agency\\\\pages\\\\rules.vue",
+    "chunkName": "pages/rules",
+    "_name": "_3998bb44"
   },
   {
     "name": "safarcart",
     "path": "/safarcart",
-    "component": "/home/badragheme/public_html/website/pages/safarcart.vue",
+    "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\company-agency\\\\pages\\\\safarcart.vue",
     "chunkName": "pages/safarcart",
-    "_name": "_008b8078"
+    "_name": "_cbbc1ce0"
   },
   {
-    "name": "Services-Services",
-    "path": "/Services-Services",
-    "component": "/home/badragheme/public_html/website/pages/Services-Services.vue",
-    "chunkName": "pages/Services-Services",
-    "_name": "_161dfb08"
+    "name": "services-services",
+    "path": "/services-services",
+    "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\company-agency\\\\pages\\\\services-services.vue",
+    "chunkName": "pages/services-services",
+    "_name": "_5a207cd4"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/home/badragheme/public_html/website/pages/index.vue",
+    "component": "C:\\\\Users\\\\pa200\\\\Desktop\\\\company agency\\\\company-agency\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_0c77a4ed"
+    "_name": "_2eb81cb9"
   }
 ]

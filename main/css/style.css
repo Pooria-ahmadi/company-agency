@@ -26,11 +26,11 @@ body {
   margin-top: -14%;
 }
 
-.position-image-Suggested {
+.position-image-suggested {
   position: relative;
 }
 
-.Menu-divisions {
+.menu-divisions{
   border-left: 1px solid #646464;
   height: 112px;
   position: absolute;
@@ -39,19 +39,19 @@ body {
   top: 0;
 }
 
-.mt-mr-Options-desktop {
+.mt-mr-options-desktop {
   margin-right: 8%;
   margin-top: -6%;
 }
 
-.Options-box {
+.options-box {
   border-radius: 5%;
   background-color: rgba(0, 0, 0, 0.7);
   width: 20%;
   padding: 20px;
 }
 
-.Options-box:hover {
+.options-box:hover {
   background-color: rgba(46, 250, 28, 0.7);
 }
 
@@ -69,19 +69,19 @@ body {
 
 .social-networks {
   background-image: linear-gradient(to right, #00f9a7, #00f933);
-  width: 340px;
+  width: 345px;
   border-radius: 15px;
   height: 80px;
 }
 
-.title-on-picture-Suggested {
+.title-on-picture-suggested {
   position: absolute;
   bottom: 68px;
   right: 4%;
   text-shadow: 2px 2px 2px black;
 }
 
-.subtitle-on-picture-Suggested {
+.subtitle-on-picture-suggested {
   position: absolute;
   bottom: 31px;
   right: 4%;

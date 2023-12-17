@@ -27,7 +27,7 @@
           <div class="navbar-end is-hidden-mobile">
 
             <button class="button is-info is-rounded ml-6 has-text-weight-bold" width="20%">
-              <img src="icons8-support-64.png">
+              <img src="/opction/icons8-support-64.png">
               <p class="pr-4">02186045318</p>
             </button>
             <button class="button is-success is-hovered has-text-weight-bold">ثبت نام | ورود</button>

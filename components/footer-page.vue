@@ -2,19 +2,19 @@
     <div>
         <div class="columns has-background-grey-lighter mt-6">
       <div class="column has-text-centered">
-        <img src="icons8-rating-64.png" alt="">
+        <img src="/footer/icons8-rating-64.png" alt="">
         <p class="mx-6">
           معتبرترین عرضه‌کننده بلیط و محصولات گردشگری در ایران
         </p>
       </div>
       <div class="column has-text-centered">
-        <img src="icons8-laptop-and-phone-48.png" alt="">
+        <img src="/footer/icons8-laptop-and-phone-48.png" alt="">
         <p class="mx-5">
           ارائه تمامی خدمات سفر (پرواز، قطار، هتل و تور) برای مسافران
         </p>
       </div>
       <div class="column has-text-centered">
-        <img src="icons8-support-48.png" alt="">
+        <img src="/footer/icons8-support-48.png" alt="">
         <p class="mx-6">
           پشتیبانی و همراهی ۲۴ ساعته در تمامی مراحل سفر
         </p>
@@ -23,23 +23,23 @@
     <div class="columns">
       <div class="column has-text-centered">
         <ul>
-          <li class="has-text-weight-bold mt-6  mb-4">سمیر گشت</li>
-          <li class=" mb-4"><NuxtLink class="has-text-grey-dark" to="/Contactus">
+          <li class="has-text-weight-bold mt-6  mb-4">بدرقه پرواز آرین</li>
+          <li class=" mb-4"><NuxtLink class="has-text-grey-dark" to="/contactus">
             ارتباط با ما
           </NuxtLink></li>
           <li class=" mb-4"><NuxtLink class="has-text-grey-dark" to="/aboutus">
             درباره ما
           </NuxtLink></li>
-          <li class=" mb-4"><a class="has-text-grey-dark">چراسمیر گشت</a></li>
+          <li class=" mb-4"><a class="has-text-grey-dark">چرابدرقه پرواز آرین</a></li>
         </ul>
       </div>
       <div class="column has-text-centered">
         <ul>
           <li class="has-text-weight-bold mt-6  mb-4"> خدمات مشتریان</li>
-          <li class=" mb-4"><NuxtLink class="has-text-grey-dark" to="/Rules">
+          <li class=" mb-4"><NuxtLink class="has-text-grey-dark" to="/rules">
               قوانین و مقررات
           </NuxtLink></li>
-          <li class=" mb-4"><NuxtLink class="has-text-grey-dark" to="/Services-Services">
+          <li class=" mb-4"><NuxtLink class="has-text-grey-dark" to="/services-services">
              خدمات مشتریان
           </NuxtLink></li>
           <li class=" mb-4"><a class="has-text-grey-dark">راهنمای خرید</a></li>
@@ -54,7 +54,7 @@
           </NuxtLink>
         </li>
           <li class=" mb-4"><NuxtLink class="has-text-grey-dark" to="/safarcart">
-            سفر کارت سمیر گشت
+            سفر کارت بدرقه پرواز آرین
           </NuxtLink>
         </li>
           
@@ -63,7 +63,7 @@
       <div class="column has-text-centered is-two-fifths">
         <ul>
           <li class="mb-4">
-            <img src="logo.png" alt="">
+            <img src="/footer/logo.png" alt="">
           </li>
           <li class=" mb-4">
             <p>تلفن پشتیبانی : <p class="mt-2">021-86045876</p>
@@ -82,19 +82,19 @@
         <div class="social-networks pt-3">
           <p class="direction-social-networks-text pr-4 has-text-weight-bold has-text-grey-dark pt-4 ml-6">با ما همراه باشید!</p>
           <a href="#">
-            <img src="icons8-whatsapp-50.png">
+            <img src="/social-media/icons8-whatsapp-50.png">
           </a>
           <a href="#">
-            <img src="icons8-telegram-50.png">
+            <img src="/social-media/icons8-telegram-50.png">
           </a>
           <a href="#">
-            <img src="icons8-instagram-50.png">
+            <img src="/social-media/icons8-instagram-50.png">
           </a>
         </div>
       </div>
       <div class="column has-text-centered">
         <a>
-          <img src="ENAMAD.png" alt="">
+          <img src="/footer/ENAMAD.png" alt="">
         </a>
       </div>
     </div>

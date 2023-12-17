@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img src="aboutus.jpg" alt="" style="width: 100%;">
+        <img src="/poster-pages/aboutus.jpg" alt="" style="width: 100%;">
         <div class="box place-Slogan-aboutus-on-image is-hidden-mobile">
             <p class="has-text-centered has-text-info-dark has-text-weight-bold mb-4 is-size-5">
                 سمیر گشت
@@ -32,12 +32,12 @@
                 </p>
             </div>
             <div class="column has-text-centered">
-                <img src="travel-agency.jpg" alt="">
+                <img src="/aboutus/travel-agency.jpg" alt="">
             </div>
         </div>
         <div class="columns is-centered is-vcentered mt-6 mx-6">
             <div class="column has-text-centered">
-                <img src="support-agency.jpg" alt="">
+                <img src="/aboutus/support-agency.jpg" alt="">
             </div>
             <div class="column">
                 <p class="has-text-weight-bold">آژانس ما همراه شما خواهد بود، در هر زمان....</p>
