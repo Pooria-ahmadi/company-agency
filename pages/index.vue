@@ -2,7 +2,7 @@
   <div>
     <img src="/poster-pages/test1.jpg" style="width: 100%;">
     <div class="place-text-on-image is-hidden-mobile is-size-2 has-text-weight-bold has-text-white">
-        پرواز داخلی
+      پرواز داخلی
     </div>
 
     <section class="columns mt-mr-options-desktop">
@@ -235,7 +235,8 @@
           هتل خارجی
         </p>
         <p class="mt-4 line-height-description">
-          بدرقه پرواز آرین با بهره‌گیری از تکنولوژی روز دنیا و حذف واسطه‌ها توانسته کامل‌ترین مرجع جستجو، مقایسه و رزرو هتل های
+          بدرقه پرواز آرین با بهره‌گیری از تکنولوژی روز دنیا و حذف واسطه‌ها توانسته کامل‌ترین مرجع جستجو، مقایسه و رزرو
+          هتل های
           خارجی را راه‌اندازی کند.
         </p>
       </div>
@@ -244,7 +245,8 @@
           هتل داخلی
         </p>
         <p class="mt-4 line-height-description">
-          بدرقه پرواز آرین به عنوان هوشمندترین مرجع رزرو آنلاین هتل داخلی در ایران تلاش می‌کند تا با فراهم کردن دسترسی شما به
+          بدرقه پرواز آرین به عنوان هوشمندترین مرجع رزرو آنلاین هتل داخلی در ایران تلاش می‌کند تا با فراهم کردن دسترسی شما
+          به
           تمامی هتل های داخلی از اقامت راحت و بی دردسر خود در یکی از شهرهای ایران لذت ببرید.
         </p>
       </div>
@@ -290,46 +292,144 @@
     </div>
 
 
-    <div class="columns is-justify-content-center mt-3 mx-0">
-      <a class="column is-two-thirds has-background-grey-lighter border-question-box">
-        <p class="is-size-6 has-text-weight-bold pr-2 has-text-grey-dark">
-          چند روز قبل از پرواز، بلیط هواپیما را بخریم ؟
-          <img src="/opction/down-arrow.png" alt="" class="direction-img-left-question">
-        </p>
-      </a>
+    <div id="app" class="container mt-3">
+      <div class="columns is-centered mx-0">
+        <div class="column is-two-thirds border-question-box">
+          <div class="box has-background-grey-lighter">
+            <div class="collapse-panel">
+              <div class="collapse-header" @click="toggleCollapse">
+                <p class="is-size-6 has-text-weight-bold has-text-grey-dark">
+                  آیا پس از خرید بلیط هواپیما، امکان تغییر نام یا نام خانوادگی وجود دارد؟
+                  <i class="direction-img-left-question" :class="{'fas fa-angle-down': !isCollapsed, 'fas fa-angle-up': isCollapsed}"></i>
+                </p>
+              </div>
+              <div class="collapse-body mr-4 line-height-description" :class="{'collapse-transition': true, 'collapsed': isCollapsed, 'expanded': !isCollapsed}">
+                <p>در پرواز داخلی یا خارجی، امکان تغییر نام و نام خانوادگی در بلیط سیستمی وجود ندارد. اما در بلیط چارتر،
+                  برخی از چارترکننده‌ها این تغییر را می‌پذیرند.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="columns is-justify-content-center mt-3 mx-0">
-      <a class="column is-two-thirds has-background-grey-lighter border-question-box">
-        <p class="is-size-6 has-text-weight-bold pr-2 has-text-grey-dark">
-          نرخ بلیط هواپیما برای نوزادان و کودکان زیر ۱۲ سال چگونه است؟
-          <img src="/opction/down-arrow.png" alt="" class="direction-img-left-question">
-        </p>
-      </a>
+    <div id="app" class="container mt-3">
+      <div class="columns is-centered mx-0">
+        <div class="column is-two-thirds border-question-box">
+          <div class="box has-background-grey-lighter">
+            <div class="collapse-panel">
+              <div class="collapse-header" @click="toggleCollapse2">
+                <p class="is-size-6 has-text-weight-bold has-text-grey-dark">
+                  رزرو آنلاین بلیط هواپیما هزینه بیشتری از خرید حضوری دارد؟
+                  <i class="direction-img-left-question" :class="{'fas fa-angle-down': !isCollapsed2, 'fas fa-angle-up': isCollapsed2}"></i>
+                </p>
+              </div>
+              <div class="collapse-body mr-4 line-height-description" :class="{'collapse-transition': true, 'collapsed': isCollapsed2, 'expanded': !isCollapsed2}">
+                <p>خیر؛ زمانی که از یک سایت معتبر خرید بلیط هواپیما، اقدام به خرید می‌کنید، نه تنها هزینه بیشتری پرداخت
+                  نمی‌کنید، حتی ممکن است تخفیف هم بگیرید. ضمنا با خرید آنلاین بلیط هواپیما از پشتیبانی نیز برخودار هستید.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="columns is-justify-content-center mt-3 mx-0">
-      <a class="column is-two-thirds has-background-grey-lighter border-question-box">
-        <p class="is-size-6 has-text-weight-bold pr-2 has-text-grey-dark">
-          آیا پس از خرید بلیط هواپیما، امکان تغییر نام یا نام خانوادگی وجود دارد؟
-          <img src="/opction/down-arrow.png" alt="" class="direction-img-left-question">
-        </p>
-      </a>
+    <div id="app" class="container mt-3">
+      <div class="columns is-centered mx-0">
+        <div class="column is-two-thirds border-question-box">
+          <div class="box has-background-grey-lighter">
+            <div class="collapse-panel">
+              <div class="collapse-header" @click="toggleCollapse3">
+                <p class="is-size-6 has-text-weight-bold has-text-grey-dark">
+                  چند روز قبل از پرواز، بلیط هواپیما را بخریم ؟
+                  <i class="direction-img-left-question" :class="{'fas fa-angle-down': !isCollapsed3, 'fas fa-angle-up': isCollapsed3}"></i>
+                </p>
+              </div>
+              <div class="collapse-body mr-4 line-height-description" :class="{'collapse-transition': true, 'collapsed': isCollapsed3, 'expanded': !isCollapsed3}">
+                <p>امکان رزرو بلیط هواپیما از ماه‌ها قبل وجود دارد. اما گاهی اوقات قیمت بلیط هواپیما در روزهای نزدیک به
+                  پرواز ارزان‌تر می‌شود. بنابراین در صورتی که شرایطتان اجازه می‌دهد، رزرو آنلاین بلیط هواپیما را به روزهای
+                  نزدیک پرواز موکول کنید. البته اگر قصد سفر در ایام پرسفر نظیر تعطیلات را دارید، باید هر چه زودتر رزرو
+                  بلیط هواپیما را انجام دهید.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="columns is-justify-content-center mt-3 mx-0">
-      <a class="column is-two-thirds has-background-grey-lighter border-question-box">
-        <p class="is-size-6 has-text-weight-bold pr-2 has-text-grey-dark">
-          آیا پس از خرید اینترنتی بلیط هواپیما امکان استرداد آن وجود دارد؟
-          <img src="/opction/down-arrow.png" alt="" class="direction-img-left-question">
-        </p>
-      </a>
+    <div id="app" class="container mt-3">
+      <div class="columns is-centered mx-0">
+        <div class="column is-two-thirds border-question-box">
+          <div class="box has-background-grey-lighter">
+            <div class="collapse-panel">
+              <div class="collapse-header" @click="toggleCollapse4">
+                <p class="is-size-6 has-text-weight-bold has-text-grey-dark">
+                  آیا پس از خرید اینترنتی بلیط هواپیما امکان استرداد آن وجود دارد؟
+                  <i class="direction-img-left-question" :class="{'fas fa-angle-down': !isCollapsed4, 'fas fa-angle-up': isCollapsed4}"></i>
+                </p>
+              </div>
+              <div class="collapse-body  mr-4 line-height-description" :class="{'collapse-transition': true, 'collapsed': isCollapsed4, 'expanded': !isCollapsed4}">
+                <p>وقتی از بدرقه پرواز یعنی بهترین سایت خرید بلیط هواپیما ، بلیطتان را رزرو می‌کنید، خیالتان آسوده است که
+                  امکان استرداد وجه در صورت کنسل کردن بلیط وجود دارد. میزان جریمه را هم هنگام رزرو آنلاین بلیط هواپیما در
+                  قسمت قوانین استرداد بخوانید. میزان جریمه به نوع بلیط، کلاس پروازی، کلاس نرخی و... بستگی دارد.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="columns is-justify-content-center mt-3 mb-6 mx-0">
-      <a class="column is-two-thirds  has-background-grey-lighter border-question-box">
-        <p class="is-size-6 has-text-weight-bold pr-2 has-text-grey-dark">
-          رزرو آنلاین بلیط هواپیما هزینه بیشتری از خرید حضوری دارد؟
-          <img src="/opction/down-arrow.png" alt="" class="direction-img-left-question">
-        </p>
-      </a>
+    <div id="app" class="container mt-3">
+      <div class="columns is-centered mx-0">
+        <div class="column is-two-thirds border-question-box">
+          <div class="box has-background-grey-lighter">
+            <div class="collapse-panel">
+              <div class="collapse-header" @click="toggleCollapse5">
+                <p class="is-size-6 has-text-weight-bold has-text-grey-dark">
+                  نرخ بلیط هواپیما برای نوزادان و کودکان زیر ۱۲ سال چگونه است؟
+                  <i class="direction-img-left-question" :class="{'fas fa-angle-down': !isCollapsed5, 'fas fa-angle-up': isCollapsed5}"></i>
+                </p>
+              </div>
+              <div class="collapse-body  mr-4 line-height-description" :class="{'collapse-transition': true, 'collapsed': isCollapsed5, 'expanded': !isCollapsed5}">
+                <p>نرخ بلیط کودکان و نوزادان به کلاس پرواز و کلاس نرخی بستگی دارد. به صورت کلی، قیمت بلیط مسافر کودک (2
+                  الی 12 سال) معادل 50 الی 100 درصد بلیط بزرگسال، و قیمت بلیط مسافر نوزاد (تا دو سال) 10 درصد بلیط بزرگسال
+                  است. هنگام تهیه بلیط هواپیما به این نکته توجه داشته باشید.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      isCollapsed: true,
+      isCollapsed2: true,
+      isCollapsed3: true,
+      isCollapsed4: true,
+      isCollapsed5: true,
+      
+    }
+  },
 
+  methods: {
+    toggleCollapse() {
+      this.isCollapsed = !this.isCollapsed;
+    },
+    toggleCollapse2() {
+      this.isCollapsed2 = !this.isCollapsed2;
+    },
+    toggleCollapse3() {
+      this.isCollapsed3 = !this.isCollapsed3;
+    },
+    toggleCollapse4() {
+      this.isCollapsed4 = !this.isCollapsed4;
+    },
+    toggleCollapse5() {
+      this.isCollapsed5 = !this.isCollapsed5;
+    },
+  
+  }
+}
+</script>

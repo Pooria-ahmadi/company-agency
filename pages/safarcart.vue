@@ -83,14 +83,14 @@
                 </div>
             </div>
         </div>
-        <div class="columns is-justify-content-center mt-4">
+        <div class="columns is-justify-content-center mt-4 mx-0">
             <div class="column is-one-fifth ">
                 <p class="mr-4 has-text-weight-semibold is-size-5  has-text-centered">
                     ANALI CARD
                 </p>
             </div>
         </div>
-        <div class="columns is-justify-content-center mt-4">
+        <div class="columns is-justify-content-center mt-4 mx-0">
             <div class=" column is-one-fifth">
                 <div class="card">
                     <div class="card-content">
@@ -136,14 +136,14 @@
                 </div>
             </div>
         </div>
-        <div class="columns is-justify-content-center mt-4">
+        <div class="columns is-justify-content-center mt-4 mx-0">
             <div class="column is-one-fifth ">
                 <p class="mr-4 has-text-weight-semibold is-size-5  has-text-centered">
                     MASHHAD CARD
                 </p>
             </div>
         </div>
-        <div class="columns is-justify-content-center mt-4">
+        <div class="columns is-justify-content-center mt-4 mx-0">
             <div class=" column is-one-fifth">
                 <div class="card">
                     <div class="card-content">
@@ -189,14 +189,14 @@
                 </div>
             </div>
         </div>
-        <div class="columns is-justify-content-center mt-4">
+        <div class="columns is-justify-content-center mt-4 mx-0">
             <div class="column is-one-fifth ">
                 <p class="mr-4 has-text-weight-semibold is-size-5  has-text-centered">
                     IRAN CARD
                 </p>
             </div>
         </div>
-        <div class="columns is-justify-content-center mt-4">
+        <div class="columns is-justify-content-center mt-4 mx-0">
             <div class=" column is-one-fifth">
                 <div class="card">
                     <div class="card-content">

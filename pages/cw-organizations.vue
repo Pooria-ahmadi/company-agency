@@ -7,7 +7,7 @@
                 </p>
             </div>
         </div>
-        <div class="columns is-justify-content-center">
+        <div class="columns is-justify-content-center mx-0">
             <div class="column is-half box mx-5 my-5 py-6">
                 <p class="line-height-description px-2">
                     آژانس هواپیمایی بدرقه پرواز در تلاش است خدمات گردشگری و جهانگردی را بالاترین سطح کیفی برای علاقمندان به

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="columns is-justify-content-center">
+        <div class="columns is-justify-content-center mx-0">
             <div class="column box is-four-fifths mx-5 my-6 py-6">
                 <p class="has-text-weight-bold">
                     قوانین و مقررات پرواز ها

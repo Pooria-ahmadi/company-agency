@@ -9,7 +9,7 @@
                 شغل جیبت رو پر می کنه ، اما ماجراجویی روحت رو به پرواز در میاره
             </p>
         </div>
-        <div class="columns is-justify-content-center">
+        <div class="columns is-justify-content-center mx-0">
             <div class="column is-two-thirds">
                 <p class="is-size-5 has-text-weight-bold has-text-centered pb-6">
                     به آژانس هواپیمایی بدرقه پرواز آرین خوش آمدید
@@ -54,7 +54,7 @@
                 </p>
             </div>
         </div>
-        <div class="columns is-justify-content-center">
+        <div class="columns is-justify-content-center mx-0">
             <div class="column is-two-thirds">
                 <p class="is-size-5 has-text-weight-bold mr-6 mt-6">
                     خدمات و تلاش های آژانس ما
