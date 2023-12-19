@@ -33,7 +33,7 @@ body {
 
 .menu-divisions{
   border-left: 1px solid #646464;
-  height: 112px;
+  height: 141px;
   position: absolute;
   left: 50%;
   margin-left: -3px;
@@ -109,11 +109,10 @@ body {
 .collapse-transition {
   transition: max-height 0.5s ease-in-out;
   overflow: hidden;
-  max-height: 0;
 }
 
 .collapsed {
-  max-height: 0;
+  max-height: 0px;
 }
 
 .expanded {

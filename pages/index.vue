@@ -31,13 +31,13 @@
       <div class="columns is-flex">
         <a class="column has-text-right" href="#">
           <p class="has-text-black">
-            <i class="fa-solid fa-plane-departure pl-1" style="color: #000000;"></i>
+            <img src="/opction/airplane-icon.png" alt="">
             پرواز
           </p>
         </a>
         <a href="#" class="column has-text-right">
           <p class="has-text-black">
-            <i class="fa-solid fa-train pl-1" style="color: #000000;"></i>
+            <img src="/opction/train-icon.png" alt="">
             قطار
           </p>
         </a>
@@ -46,13 +46,13 @@
       <div class="columns is-flex">
         <a href="#" class="column has-text-right">
           <p class="has-text-black">
-            <i class="fa-solid fa-hotel pl-1" style="color: #000000;"></i>
+            <img src="/opction/hotel-icon.png" alt="">
             هتل
           </p>
         </a>
         <a class="column has-text-right">
           <p class="has-text-black">
-            <i class="fa-solid fa-umbrella-beach pl-1" style="color: #000000;"></i>
+            <img src="/opction/icons8-beach-30.png" alt="">
             تور
           </p>
         </a>
@@ -300,7 +300,11 @@
               <div class="collapse-header" @click="toggleCollapse">
                 <p class="is-size-6 has-text-weight-bold has-text-grey-dark">
                   آیا پس از خرید بلیط هواپیما، امکان تغییر نام یا نام خانوادگی وجود دارد؟
-                  <i class="direction-img-left-question" :class="{'fas fa-angle-down': !isCollapsed, 'fas fa-angle-up': isCollapsed}"></i>
+                  <img
+                  v-bind:src="isCollapsed ? '/opction/up-arrow.png' : '/opction/down-arrow.png'"
+                  alt="arrow-icon"
+                  class="direction-img-left-question"
+                />
                 </p>
               </div>
               <div class="collapse-body mr-4 line-height-description" :class="{'collapse-transition': true, 'collapsed': isCollapsed, 'expanded': !isCollapsed}">
@@ -320,7 +324,11 @@
               <div class="collapse-header" @click="toggleCollapse2">
                 <p class="is-size-6 has-text-weight-bold has-text-grey-dark">
                   رزرو آنلاین بلیط هواپیما هزینه بیشتری از خرید حضوری دارد؟
-                  <i class="direction-img-left-question" :class="{'fas fa-angle-down': !isCollapsed2, 'fas fa-angle-up': isCollapsed2}"></i>
+                  <img
+                  v-bind:src="isCollapsed2 ? '/opction/up-arrow.png' : '/opction/down-arrow.png'"
+                  alt="arrow-icon"
+                  class="direction-img-left-question"
+                />
                 </p>
               </div>
               <div class="collapse-body mr-4 line-height-description" :class="{'collapse-transition': true, 'collapsed': isCollapsed2, 'expanded': !isCollapsed2}">
@@ -341,7 +349,11 @@
               <div class="collapse-header" @click="toggleCollapse3">
                 <p class="is-size-6 has-text-weight-bold has-text-grey-dark">
                   چند روز قبل از پرواز، بلیط هواپیما را بخریم ؟
-                  <i class="direction-img-left-question" :class="{'fas fa-angle-down': !isCollapsed3, 'fas fa-angle-up': isCollapsed3}"></i>
+                  <img
+                  v-bind:src="isCollapsed3 ? '/opction/up-arrow.png' : '/opction/down-arrow.png'"
+                  alt="arrow-icon"
+                  class="direction-img-left-question"
+                />
                 </p>
               </div>
               <div class="collapse-body mr-4 line-height-description" :class="{'collapse-transition': true, 'collapsed': isCollapsed3, 'expanded': !isCollapsed3}">
@@ -363,7 +375,11 @@
               <div class="collapse-header" @click="toggleCollapse4">
                 <p class="is-size-6 has-text-weight-bold has-text-grey-dark">
                   آیا پس از خرید اینترنتی بلیط هواپیما امکان استرداد آن وجود دارد؟
-                  <i class="direction-img-left-question" :class="{'fas fa-angle-down': !isCollapsed4, 'fas fa-angle-up': isCollapsed4}"></i>
+                  <img
+                  v-bind:src="isCollapsed4 ? '/opction/up-arrow.png' : '/opction/down-arrow.png'"
+                  alt="arrow-icon"
+                  class="direction-img-left-question"
+                />
                 </p>
               </div>
               <div class="collapse-body  mr-4 line-height-description" :class="{'collapse-transition': true, 'collapsed': isCollapsed4, 'expanded': !isCollapsed4}">
@@ -384,7 +400,11 @@
               <div class="collapse-header" @click="toggleCollapse5">
                 <p class="is-size-6 has-text-weight-bold has-text-grey-dark">
                   نرخ بلیط هواپیما برای نوزادان و کودکان زیر ۱۲ سال چگونه است؟
-                  <i class="direction-img-left-question" :class="{'fas fa-angle-down': !isCollapsed5, 'fas fa-angle-up': isCollapsed5}"></i>
+                  <img
+                  v-bind:src="isCollapsed5 ? '/opction/up-arrow.png' : '/opction/down-arrow.png'"
+                  alt="arrow-icon"
+                  class="direction-img-left-question"
+                />
                 </p>
               </div>
               <div class="collapse-body  mr-4 line-height-description" :class="{'collapse-transition': true, 'collapsed': isCollapsed5, 'expanded': !isCollapsed5}">

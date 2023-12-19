@@ -15,25 +15,25 @@
         <ul>
           <li class="my-4">
             <a class="has-text-black has-text-weight-bold" href="#">
-              <i class="fa-solid fa-plane-departure pl-1"></i>
+              <img src="/opction/airplane-icon.png" alt="">
               پرواز
             </a>
           </li>
           <li class="my-4">
             <a class="has-text-black has-text-weight-bold" href="#">
-              <i class="fa-solid fa-train pl-1"></i>
+              <img src="/opction/train-icon.png" alt="">
               قطار
             </a>
           </li>
           <li class="my-4">
             <a class="has-text-black has-text-weight-bold" href="#">
-              <i class="fa-solid fa-hotel pl-1"></i>
+              <img src="/opction/hotel-icon.png" alt="">
               هتل
             </a>
           </li>
           <li class="my-4">
             <a class="has-text-black has-text-weight-bold" href="#">
-              <i class="fa-solid fa-umbrella-beach pl-1"></i>
+              <img src="/opction/icons8-beach-30.png" alt="">
               تور
             </a>
           </li>
