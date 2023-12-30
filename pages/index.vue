@@ -102,7 +102,7 @@
       </div>
     </div> -->
 
-    <div class="columns mx-6 mt-4">
+    <div class="columns mx-6 mt-65">
       <div class="column mx-6 has-text-centered">
 
         <img src="/points/blit.png">
@@ -130,7 +130,7 @@
       </div>
 
     </div>
-    <div class="columns mx-6 is-justify-content-center">
+    <div class="columns mx-6 mb-0 is-justify-content-center mt-65">
       <div class="column is-one-third">
         <a href="#">
           <div class="position-image-suggested">
@@ -187,10 +187,10 @@
       </div>
     </div>
 
-    <p class="has-text-centered is-size-4">خرید آنلاین بلیط</p>
+    <p class="has-text-centered is-size-4 mt-65">خرید آنلاین بلیط</p>
     <div class="columns is-justify-content-center mx-0">
       <div class="column is-two-thirds">
-        <p class="is-size-5 has-text-weight-bold mr-6 mt-6">
+        <p class="is-size-5 has-text-weight-bold mr-6 mt-4">
           خرید بلیط آنلاین؟
         </p>
         <p class="is-size-6 mx-6 mt-4 line-height-description">
@@ -200,7 +200,7 @@
         </p>
       </div>
     </div>
-    <div class="has-text-centered my-4">
+    <div class="has-text-centered">
       <img src="/index/Travel luggage.jpg" alt="">
     </div>
     <div class="columns mx-6 is-centered">
@@ -230,7 +230,7 @@
       </div>
     </div>
     <div class="columns mx-6 is-centered">
-      <div class="column has-background-grey-lighter border-all-image mt-6 is-one-third mx-3">
+      <div class="column has-background-grey-lighter border-all-image mt-4 is-one-third mx-3">
         <p class="has-text-weight-bold ">
           هتل خارجی
         </p>
@@ -240,7 +240,7 @@
           خارجی را راه‌اندازی کند.
         </p>
       </div>
-      <div class="column has-background-grey-lighter border-all-image mt-6 is-one-third mx-3">
+      <div class="column has-background-grey-lighter border-all-image mt-4 is-one-third mx-3">
         <p class="has-text-weight-bold ">
           هتل داخلی
         </p>
@@ -251,7 +251,8 @@
         </p>
       </div>
     </div>
-    <div class="columns is-centered is-vcentered my-6 mx-6">
+    <div class="background-fixed">
+    <div class="columns is-centered is-vcentered mx-6 mt-65 white-color-text">
       <div class="column">
         <p class="has-text-weight-bold">سفر کارت چیست؟</p>
         <p class="mt-4 line-height-description">سفر کارت یک بسته سفره که با خرید آن می توان سفر را در خانواده برای باال
@@ -259,7 +260,7 @@
           کیفیت زندگی با توجه به مشکالت روزمره باال برد،این کارت ها هم از لحاظ هزینه و هم از لحاظ کیفیت میتواند نظر
           استفاده کنندگان را تامین کند ...</p>
         <div class="has-text-centered mt-6">
-          <button class="button is-light">ادامه مطلب...</button>
+          <button class="button is-light"><NuxtLink class="has-text-grey-dark" to="/services-services">ادامه مطلب...</NuxtLink></button>
         </div>
 
       </div>
@@ -267,7 +268,7 @@
         <img src="/index/safar-card.jpg" alt="" class="border-all-image">
       </div>
     </div>
-    <div class="columns is-centered is-vcentered my-6 mx-6">
+    <div class="columns is-centered is-vcentered  mx-6 mt-5 white-color-text">
       <div class="column has-text-centered">
         <img src="/index/laptab.jpg" alt="" class="border-all-image">
       </div>
@@ -284,7 +285,8 @@
         </ul>
       </div>
     </div>
-    <div class="is-flex is-justify-content-center">
+  </div>
+    <div class="is-flex is-justify-content-center mt-65">
       <img src="question-mark.png" alt="">
       <p class="pt-2 mr-3 has-text-weight-bold">
         سوالات متداول
@@ -294,128 +296,118 @@
 
     <div id="app" class="container mt-3">
       <div class="columns is-centered mx-0">
-        <div class="column is-two-thirds border-question-box">
+        <a class="column is-two-thirds border-question-box">
           <div class="box has-background-grey-lighter">
             <div class="collapse-panel">
               <div class="collapse-header" @click="toggleCollapse">
                 <p class="is-size-6 has-text-weight-bold has-text-grey-dark">
-                  آیا پس از خرید بلیط هواپیما، امکان تغییر نام یا نام خانوادگی وجود دارد؟
-                  <img
-                  v-bind:src="isCollapsed ? '/opction/up-arrow.png' : '/opction/down-arrow.png'"
-                  alt="arrow-icon"
-                  class="direction-img-left-question"
-                />
+                  <span v-for="titletext in collapse_title">
+                    {{ titletext.titlecollaps }}
+                  </span>
+                  <img v-bind:src="isCollapsed ? '/opction/up-arrow.png' : '/opction/down-arrow.png'" alt="arrow-icon"
+                    class="direction-img-left-question" />
                 </p>
               </div>
-              <div class="collapse-body mr-4 line-height-description" :class="{'collapse-transition': true, 'collapsed': isCollapsed, 'expanded': !isCollapsed}">
-                <p>در پرواز داخلی یا خارجی، امکان تغییر نام و نام خانوادگی در بلیط سیستمی وجود ندارد. اما در بلیط چارتر،
-                  برخی از چارترکننده‌ها این تغییر را می‌پذیرند.</p>
+              <div v-for="text in collapse_subtitle" class="collapse-body mr-4 line-height-description"
+                :class="{ 'collapse-transition': true, 'collapsed': isCollapsed, 'expanded': !isCollapsed }">
+                <p>{{ text.isCollapsed }}</p>
               </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
     <div id="app" class="container mt-3">
       <div class="columns is-centered mx-0">
-        <div class="column is-two-thirds border-question-box">
+        <a class="column is-two-thirds border-question-box">
           <div class="box has-background-grey-lighter">
             <div class="collapse-panel">
               <div class="collapse-header" @click="toggleCollapse2">
                 <p class="is-size-6 has-text-weight-bold has-text-grey-dark">
-                  رزرو آنلاین بلیط هواپیما هزینه بیشتری از خرید حضوری دارد؟
-                  <img
-                  v-bind:src="isCollapsed2 ? '/opction/up-arrow.png' : '/opction/down-arrow.png'"
-                  alt="arrow-icon"
-                  class="direction-img-left-question"
-                />
+                  <span v-for="titletext in collapse_title">
+                    {{ titletext.titlecollaps2 }}
+                  </span>
+                  <img v-bind:src="isCollapsed2 ? '/opction/up-arrow.png' : '/opction/down-arrow.png'" alt="arrow-icon"
+                    class="direction-img-left-question" />
                 </p>
               </div>
-              <div class="collapse-body mr-4 line-height-description" :class="{'collapse-transition': true, 'collapsed': isCollapsed2, 'expanded': !isCollapsed2}">
-                <p>خیر؛ زمانی که از یک سایت معتبر خرید بلیط هواپیما، اقدام به خرید می‌کنید، نه تنها هزینه بیشتری پرداخت
-                  نمی‌کنید، حتی ممکن است تخفیف هم بگیرید. ضمنا با خرید آنلاین بلیط هواپیما از پشتیبانی نیز برخودار هستید.
-                </p>
+              <div v-for="text in collapse_subtitle" class="collapse-body mr-4 line-height-description"
+                :class="{ 'collapse-transition': true, 'collapsed': isCollapsed2, 'expanded': !isCollapsed2 }">
+                <p>{{ text.isCollapsed2 }}</p>
               </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
     <div id="app" class="container mt-3">
       <div class="columns is-centered mx-0">
-        <div class="column is-two-thirds border-question-box">
+        <a class="column is-two-thirds border-question-box">
           <div class="box has-background-grey-lighter">
             <div class="collapse-panel">
               <div class="collapse-header" @click="toggleCollapse3">
                 <p class="is-size-6 has-text-weight-bold has-text-grey-dark">
-                  چند روز قبل از پرواز، بلیط هواپیما را بخریم ؟
-                  <img
-                  v-bind:src="isCollapsed3 ? '/opction/up-arrow.png' : '/opction/down-arrow.png'"
-                  alt="arrow-icon"
-                  class="direction-img-left-question"
-                />
+                  <span v-for="titletext in collapse_title">
+                    {{ titletext.titlecollaps3 }}
+                  </span>
+                  <img v-bind:src="isCollapsed3 ? '/opction/up-arrow.png' : '/opction/down-arrow.png'" alt="arrow-icon"
+                    class="direction-img-left-question" />
                 </p>
               </div>
-              <div class="collapse-body mr-4 line-height-description" :class="{'collapse-transition': true, 'collapsed': isCollapsed3, 'expanded': !isCollapsed3}">
-                <p>امکان رزرو بلیط هواپیما از ماه‌ها قبل وجود دارد. اما گاهی اوقات قیمت بلیط هواپیما در روزهای نزدیک به
-                  پرواز ارزان‌تر می‌شود. بنابراین در صورتی که شرایطتان اجازه می‌دهد، رزرو آنلاین بلیط هواپیما را به روزهای
-                  نزدیک پرواز موکول کنید. البته اگر قصد سفر در ایام پرسفر نظیر تعطیلات را دارید، باید هر چه زودتر رزرو
-                  بلیط هواپیما را انجام دهید.</p>
+              <div v-for="text in collapse_subtitle" class="collapse-body mr-4 line-height-description"
+                :class="{ 'collapse-transition': true, 'collapsed': isCollapsed3, 'expanded': !isCollapsed3 }">
+                <p>{{ text.isCollapsed3 }}</p>
               </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
     <div id="app" class="container mt-3">
       <div class="columns is-centered mx-0">
-        <div class="column is-two-thirds border-question-box">
+        <a class="column is-two-thirds border-question-box">
           <div class="box has-background-grey-lighter">
             <div class="collapse-panel">
               <div class="collapse-header" @click="toggleCollapse4">
                 <p class="is-size-6 has-text-weight-bold has-text-grey-dark">
-                  آیا پس از خرید اینترنتی بلیط هواپیما امکان استرداد آن وجود دارد؟
-                  <img
-                  v-bind:src="isCollapsed4 ? '/opction/up-arrow.png' : '/opction/down-arrow.png'"
-                  alt="arrow-icon"
-                  class="direction-img-left-question"
-                />
+                  <span v-for="titletext in collapse_title">
+                    {{ titletext.titlecollaps4 }}
+                  </span>
+                  <img v-bind:src="isCollapsed4 ? '/opction/up-arrow.png' : '/opction/down-arrow.png'" alt="arrow-icon"
+                    class="direction-img-left-question" />
                 </p>
               </div>
-              <div class="collapse-body  mr-4 line-height-description" :class="{'collapse-transition': true, 'collapsed': isCollapsed4, 'expanded': !isCollapsed4}">
-                <p>وقتی از بدرقه پرواز یعنی بهترین سایت خرید بلیط هواپیما ، بلیطتان را رزرو می‌کنید، خیالتان آسوده است که
-                  امکان استرداد وجه در صورت کنسل کردن بلیط وجود دارد. میزان جریمه را هم هنگام رزرو آنلاین بلیط هواپیما در
-                  قسمت قوانین استرداد بخوانید. میزان جریمه به نوع بلیط، کلاس پروازی، کلاس نرخی و... بستگی دارد.</p>
+              <div v-for="text in collapse_subtitle" class="collapse-body  mr-4 line-height-description"
+                :class="{ 'collapse-transition': true, 'collapsed': isCollapsed4, 'expanded': !isCollapsed4 }">
+                <p>{{ text.isCollapsed4 }}</p>
               </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
     <div id="app" class="container mt-3">
       <div class="columns is-centered mx-0">
-        <div class="column is-two-thirds border-question-box">
+        <a class="column is-two-thirds border-question-box">
           <div class="box has-background-grey-lighter">
             <div class="collapse-panel">
               <div class="collapse-header" @click="toggleCollapse5">
                 <p class="is-size-6 has-text-weight-bold has-text-grey-dark">
-                  نرخ بلیط هواپیما برای نوزادان و کودکان زیر ۱۲ سال چگونه است؟
-                  <img
-                  v-bind:src="isCollapsed5 ? '/opction/up-arrow.png' : '/opction/down-arrow.png'"
-                  alt="arrow-icon"
-                  class="direction-img-left-question"
-                />
+                  <span v-for="titletext in collapse_title">
+                    {{ titletext.titlecollaps5 }}
+                  </span>
+                  <img v-bind:src="isCollapsed5 ? '/opction/up-arrow.png' : '/opction/down-arrow.png'" alt="arrow-icon"
+                    class="direction-img-left-question" />
                 </p>
               </div>
-              <div class="collapse-body  mr-4 line-height-description" :class="{'collapse-transition': true, 'collapsed': isCollapsed5, 'expanded': !isCollapsed5}">
-                <p>نرخ بلیط کودکان و نوزادان به کلاس پرواز و کلاس نرخی بستگی دارد. به صورت کلی، قیمت بلیط مسافر کودک (2
-                  الی 12 سال) معادل 50 الی 100 درصد بلیط بزرگسال، و قیمت بلیط مسافر نوزاد (تا دو سال) 10 درصد بلیط بزرگسال
-                  است. هنگام تهیه بلیط هواپیما به این نکته توجه داشته باشید.</p>
+              <div v-for="text in collapse_subtitle" class="collapse-body  mr-4 line-height-description"
+                :class="{ 'collapse-transition': true, 'collapsed': isCollapsed5, 'expanded': !isCollapsed5 }">
+                <p>{{ text.isCollapsed5 }}</p>
 
               </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </div>
@@ -424,12 +416,27 @@
 export default {
   data() {
     return {
+      collapse_subtitle: [
+        { isCollapsed5: " نرخ بلیط کودکان و نوزادان به کلاس پرواز و کلاس نرخی بستگی دارد. به صورت کلی، قیمت بلیط مسافر کودک (2 الی 12 سال) معادل 50 الی 100 درصد بلیط بزرگسال، و قیمت بلیط مسافر نوزاد (تا دو سال) 10 درصد بلیط بزرگسال است. هنگام تهیه بلیط هواپیما به این نکته توجه داشته باشید." },
+        { isCollapsed4: " وقتی از بدرقه پرواز یعنی بهترین سایت خرید بلیط هواپیما ، بلیطتان را رزرو می‌کنید، خیالتان آسوده است که امکان استرداد وجه در صورت کنسل کردن بلیط وجود دارد. میزان جریمه را هم هنگام رزرو آنلاین بلیط هواپیما در قسمت قوانین استرداد بخوانید. میزان جریمه به نوع بلیط، کلاس پروازی، کلاس نرخی و... بستگی دارد." },
+        { isCollapsed3: "امکان رزرو بلیط هواپیما از ماه‌ها قبل وجود دارد. اما گاهی اوقات قیمت بلیط هواپیما در روزهای نزدیک به پرواز ارزان‌تر می‌شود. بنابراین در صورتی که شرایطتان اجازه می‌دهد، رزرو آنلاین بلیط هواپیما را به روزهای نزدیک پرواز موکول کنید. البته اگر قصد سفر در ایام پرسفر نظیر تعطیلات را دارید، باید هر چه زودتر رزرو بلیط هواپیما را انجام دهید." },
+        { isCollapsed2: "خیر؛ زمانی که از یک سایت معتبر خرید بلیط هواپیما، اقدام به خرید می‌کنید، نه تنها هزینه بیشتری پرداخت نمی‌کنید، حتی ممکن است تخفیف هم بگیرید. ضمنا با خرید آنلاین بلیط هواپیما از پشتیبانی نیز برخودار هستید." },
+        { isCollapsed: "در پرواز داخلی یا خارجی، امکان تغییر نام و نام خانوادگی در بلیط سیستمی وجود ندارد. اما در بلیط چارتر، برخی از چارترکننده‌ها این تغییر را می‌پذیرند." },
+      ],
+      collapse_title: [
+        { titlecollaps5: "نرخ بلیط هواپیما برای نوزادان و کودکان زیر ۱۲ سال چگونه است؟" },
+        { titlecollaps4: "آیا پس از خرید اینترنتی بلیط هواپیما امکان استرداد آن وجود دارد؟ " },
+        { titlecollaps3: "چند روز قبل از پرواز، بلیط هواپیما را بخریم ؟ " },
+        { titlecollaps2: "رزرو آنلاین بلیط هواپیما هزینه بیشتری از خرید حضوری دارد؟ " },
+        { titlecollaps: "آیا پس از خرید بلیط هواپیما، امکان تغییر نام یا نام خانوادگی وجود دارد؟ " },
+      ],
+
       isCollapsed: true,
       isCollapsed2: true,
       isCollapsed3: true,
       isCollapsed4: true,
       isCollapsed5: true,
-      
+
     }
   },
 
@@ -449,7 +456,7 @@ export default {
     toggleCollapse5() {
       this.isCollapsed5 = !this.isCollapsed5;
     },
-  
+
   }
 }
 </script>

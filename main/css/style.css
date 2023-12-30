@@ -118,3 +118,26 @@ body {
 .expanded {
   max-height: 500px; /* Set an appropriate max-height value */
 }
+
+@media only screen and (min-width: 412px) {
+  .mt-65{
+    margin-top: 44px;
+  } 
+}
+@media only screen and (min-width: 1200px) {
+  .mt-65{
+    margin-top: 65px;
+  }
+  .background-fixed{
+  background-image: url("static/index/travel11.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .white-color-text{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+}
